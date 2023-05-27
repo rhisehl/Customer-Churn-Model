@@ -1,0 +1,13 @@
+Telecom customer: 100 columns, 100,000 records https://www.kaggle.com/datasets/abhinav89/telecom-customer
+Telecom Customer Churn Dataset: 226 columns, 100,000 records https://www.kaggle.com/datasets/shivam131019/telecom-churn-dataset?select=telecom_churn_data.csv
+
+Possibilities:
+
+Census Data
+Bureau of Commerce
+Bureau of Labor Statistics
+
+UCI Machine Learning Repo
+Google Analytics API
+
+Yelp & Twitter Mining
