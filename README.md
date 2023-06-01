@@ -6,3 +6,5 @@ Evaluate the causes of customer churn and create a machine learning algorithm to
 Timeline: https://docs.google.com/spreadsheets/d/1mUIbTPY1Xd29zLsRSzpnpTErIFET0L7rTnL7LN7NJe0/edit#gid=1709744959
 
 Proposal: https://docs.google.com/document/d/1Jg5Apw0ZbXjgVBtCeLI9XQ2aM47DyHTDMnrufyetgco/edit#heading=h.29hau7r7hy0i
+
+Working Colab workbooks: https://drive.google.com/drive/folders/1vLQERtrbVcWDDE27lp25ukbEb7T4u0q1
