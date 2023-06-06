@@ -8,16 +8,19 @@ For our culminating project, we undertook a comprehensive analysis of customer c
 
 ## Methodology 
 
-First, we downloaded two datasets, one from Kaggle for the ecommerce company, and one from Open Intro for a randomized sample of individuals from census data. The data was uploaded into Amazon's AWS S3 platform for ease of importing and future-proofing the process. The S3 bucket was then opened in Google Colab and imported into a Pandas dataframe. The two datasets were 
+First, we downloaded two datasets, one from Kaggle for the ecommerce company, and one from Open Intro for a randomized sample of individuals from census data. The data was uploaded into Amazon's AWS S3 platform for ease of importing and future-proofing the process. The S3 bucket was then opened in Google Colab and imported into a Pandas dataframe. The two datasets were merged based on randomizing a combination of the gender and marital status of the individual customer. The data was then cleaned and normalized, removing all rows containing null values and standardizing labeling across the dataset. The cleaned dataset was then uploaded back to S3.
 
-We then utilized AWS to upload and store the scrubbed dataset 
-
-To visualize the key factors identified in the data, we employed  Matplotlib. This allowed us to easily visualize the relationships between various factors and customer churn. This gave us additional insights into what factors should be focused on when creating our models.
+The average personal income of the dataset was calculated and then matchd against Census data to determine what city best resembled the sample. The city was determined to be Detroit, Michigan.
 
 ## Analysis 
 
-Our initial analysis revealed a market penetration 0.98% with customer churn of 17.8%.
-Based on the average personal income from our analysis we were able to extrapolate from census data that our market was Detroit. 
+Our initial analysis revealed a market penetration 0.98% with customer churn of 17.8%, using the Detroit, Michigan total population. The data was worked through matplotlib to evaluate the importance of different factors.
+
+## Machine Learning Model: Testing Phase
+
+## Machine Learning Model: Best Fit
+
+## Machine Learning Model: Optimization
 
 
 
