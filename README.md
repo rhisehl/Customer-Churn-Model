@@ -16,21 +16,23 @@ The average personal income of the dataset was calculated and then matched again
 Our initial analysis revealed a market penetration 0.98% with customer churn of 17.8%, using the Detroit, Michigan total population. The data was worked through matplotlib to evaluate the importance of different factors.
 
 ![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/87a024fb-f6d7-445f-ac92-456349cba98e)
+
 The majority of the individuals in this sample have a tenure of less than 10 months, with an outlier at 50 months.
+
 
 ![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/56d2cc72-bd7c-47f8-96c0-38c7f267c457)
 
 Most customers had personal incomes under $150,000 / year, but a few outliers had incomes up to almost $800,000. This is an expected outcome, with the largest portion of customers under $100,000 / year.
 
 
+![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/4c07567c-18cd-4c30-ad0b-08a695361bdd)
+
+The majority of the individuals in this sample were male (60%). Male and female churn were comparable, at 18.8% versus 16.3%, respectively.
+
+
 ![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/10e58f01-3ce1-4114-add1-b7904dca13b2)
 
 71.4% of customers did not file a complaint in the preceding month, and those who did file a claim were approximately three times more likely to churn (33.2% vs 11.6%) 
-
-
-![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/ba0bd035-66f8-4d78-b410-f71bad29ee51)
-
-The majority of the individuals in this sample were male (60%). Male and female churn were comparable, at 18.8% versus 16.3%, respectively.
 
 
 ![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/4dd80792-f0ce-454f-8b5a-2ec9cbdf26c2)
