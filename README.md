@@ -28,15 +28,20 @@ The majority of the individuals in this sample were male (60%). Male and female 
 70.6% of customers preferred to use a mobile phone for interacting with the company. Those who used a computer were slightly more likely to churn (20.6%) compared to those who used a mobile phone (16.6%).
 
 ![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/6c36a393-5ee5-4185-b6d3-fa824dfa05d0)
-Customer satisfaction scores show a trend when comparing churn, but it is unusual. An assumption was made that a 1 in satisfaction was poor and a 5 was good, however the trends are not reflective of this. For both churn and non-churn individuals, the highest probability was a score of 3. Those who did churn were much more likely to score between 2.5 and 5. Those who did not churn, however, were more likely to score a 1. Those who did not churn, in general, had a low chance of scoring half scores, while those who did churn had a more continuous plot.
-
-
-
-
+Customer satisfaction scores show a trend when comparing churn, but it is unusual. An assumption was made that a 1 in satisfaction was poor and a 5 was good, however the trends are not reflective of this. For both churn and non-churn individuals, the highest probability was a score of 3. Those who did churn were much more likely to score between 2.5 and 5. Those who did not churn, however, were more likely to score a 1. Those who did not churn, in general, had a low chance of scoring half scores, while those who did churn had a more continuous plot. It is possible that the satisfaction score could be the inverseof expectations, more consultation with the company is needed to evaluate this trend.
 
 
 
 ## Machine Learning Model: Testing Phase
+To begin the machine learning process, an inventory was taken of several models that could fit the data. These were:
+* K-Nearest Neighbors
+* Naive Bayes
+* Logistic Regression
+* Support Vector Machines
+* Decision Tree
+* Random Forests
+* Neural Network
+
 
 ## Machine Learning Model: Best Fit
 
