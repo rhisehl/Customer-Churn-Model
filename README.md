@@ -66,6 +66,19 @@ To begin the machine learning process, an inventory was taken of several models 
 ## Technologies Utilized
 
 Python, GoogleColab, Canva, AWS
+### Python Libraries
+* Pandas
+* Numpy
+* CPI
+* boto3
+* Matplotlib
+* Tensorflow
+* iPython
+* OS
+* Pydotplus
+* Scikit-Learn
+* IMB-Learn
+* Spark
 
 ## Datasources
 
