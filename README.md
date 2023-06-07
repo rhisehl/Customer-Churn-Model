@@ -79,6 +79,7 @@ Python, GoogleColab, Canva, AWS
 * Scikit-Learn
 * IMB-Learn
 * Spark
+* RegEx
 
 ## Datasources
 
