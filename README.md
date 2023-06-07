@@ -9,11 +9,32 @@ For our culminating project, we undertook a comprehensive analysis of customer c
 
 First, we downloaded two datasets, one from Kaggle for the ecommerce company, and one from Open Intro for a randomized sample of individuals from census data. The data was uploaded into Amazon's AWS S3 platform for ease of importing and future-proofing the process. The S3 bucket was then opened in Google Colab and imported into a Pandas dataframe. The two datasets were merged based on randomizing a combination of the gender and marital status of the individual customer. The data was then cleaned and normalized, removing all rows containing null values and standardizing labeling across the dataset. The cleaned dataset was then uploaded back to S3.
 
-The average personal income of the dataset was calculated and then matchd against Census data to determine what city best resembled the sample. The city was determined to be Detroit, Michigan.
+The average personal income of the dataset was calculated and then matched against Census data to determine what city best resembled the sample. The city was determined to be Detroit, Michigan.
 
 ## Analysis 
 
 Our initial analysis revealed a market penetration 0.98% with customer churn of 17.8%, using the Detroit, Michigan total population. The data was worked through matplotlib to evaluate the importance of different factors.
+
+![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/87a024fb-f6d7-445f-ac92-456349cba98e)
+The majority of the individuals in this sample have a tenure of less than 10 months, with an outlier at 50 months.
+
+![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/10e58f01-3ce1-4114-add1-b7904dca13b2)
+71.4% of customers did not file a complaint in the preceding month, and those who did file a claim were approximately three times more likely to churn (33.2% vs 11.6%) 
+
+![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/ba0bd035-66f8-4d78-b410-f71bad29ee51)
+The majority of the individuals in this sample were male (60%). Male and female churn were comparable, at 18.8% versus 16.3%, respectively.
+
+![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/4dd80792-f0ce-454f-8b5a-2ec9cbdf26c2)
+70.6% of customers preferred to use a mobile phone for interacting with the company. Those who used a computer were slightly more likely to churn (20.6%) compared to those who used a mobile phone (16.6%).
+
+![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/6c36a393-5ee5-4185-b6d3-fa824dfa05d0)
+Customer satisfaction scores show a trend when comparing churn, but it is unusual. An assumption was made that a 1 in satisfaction was poor and a 5 was good, however the trends are not reflective of this. For both churn and non-churn individuals, the highest probability was a score of 3. Those who did churn were much more likely to score between 2.5 and 5. Those who did not churn, however, were more likely to score a 1. Those who did not churn, in general, had a low chance of scoring half scores, while those who did churn had a more continuous plot.
+
+
+
+
+
+
 
 ## Machine Learning Model: Testing Phase
 
