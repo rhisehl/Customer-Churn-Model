@@ -59,9 +59,6 @@ To begin the machine learning process, an inventory was taken of several models 
 
 ## Machine Learning Model: Best Fit
 
-## Machine Learning Model: Optimization
-
-
 
 ## Technologies Utilized
 
