@@ -1,0 +1,6 @@
+,Model,Oversample,Scaler,Neighbors,precision,recall,f1-score,support
+Active,Logistic Regression,True,"RobustScaler(quantile_range=(25, 75))",0,0.9497999272462714,0.7902542372881356,0.8627127044440773,3304.0
+Inactive,Logistic Regression,True,"RobustScaler(quantile_range=(25, 75))",0,0.45433070866141734,0.806993006993007,0.581360201511335,715.0
+accuracy,Logistic Regression,True,"RobustScaler(quantile_range=(25, 75))",0,0.7932321473003234,0.7932321473003234,0.7932321473003234,0.7932321473003234
+macro avg,Logistic Regression,True,"RobustScaler(quantile_range=(25, 75))",0,0.7020653179538443,0.7986236221405714,0.7220364529777061,4019.0
+weighted avg,Logistic Regression,True,"RobustScaler(quantile_range=(25, 75))",0,0.8616534999538675,0.7932321473003234,0.8126587010609196,4019.0

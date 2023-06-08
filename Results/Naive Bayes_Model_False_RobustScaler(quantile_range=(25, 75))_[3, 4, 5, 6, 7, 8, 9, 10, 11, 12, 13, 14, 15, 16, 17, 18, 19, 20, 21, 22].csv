@@ -1,0 +1,6 @@
+,Model,Oversample,Scaler,Neighbors,precision,recall,f1-score,support
+Active,Naive Bayes,False,"RobustScaler(quantile_range=(25, 75))",0,0.9318092234923138,0.715496368038741,0.8094504365690808,3304.0
+Inactive,Naive Bayes,False,"RobustScaler(quantile_range=(25, 75))",0,0.3657219973009447,0.7580419580419581,0.4934000910332271,715.0
+accuracy,Naive Bayes,False,"RobustScaler(quantile_range=(25, 75))",0,0.7230654391639711,0.7230654391639711,0.7230654391639711,0.7230654391639711
+macro avg,Naive Bayes,False,"RobustScaler(quantile_range=(25, 75))",0,0.6487656103966293,0.7367691630403495,0.651425263801154,4019.0
+weighted avg,Naive Bayes,False,"RobustScaler(quantile_range=(25, 75))",0,0.8310995029830256,0.7230654391639711,0.7532235151811396,4019.0

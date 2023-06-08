@@ -1,0 +1,6 @@
+,Model,Oversample,Scaler,Neighbors,precision,recall,f1-score,support
+Active,Support Vector Machines (SVM),False,MinMaxScaler(),0,0.9784098697738177,0.8641041162227603,0.9177113468338155,3304.0
+Inactive,Support Vector Machines (SVM),False,MinMaxScaler(),0,0.592188919164396,0.9118881118881119,0.7180616740088107,715.0
+accuracy,Support Vector Machines (SVM),False,MinMaxScaler(),0,0.8726051256531475,0.8726051256531475,0.8726051256531475,0.8726051256531475
+macro avg,Support Vector Machines (SVM),False,MinMaxScaler(),0,0.7852993944691069,0.8879961140554361,0.8178865104213131,4019.0
+weighted avg,Support Vector Machines (SVM),False,MinMaxScaler(),0,0.9096992502949085,0.8726051256531475,0.8821926814767918,4019.0
