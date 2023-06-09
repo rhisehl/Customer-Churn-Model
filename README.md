@@ -58,6 +58,11 @@ To begin the machine learning process, an inventory was taken of several models 
 
 
 ## Machine Learning Model: Best Fit
+Most of the models had an f1 score above .8, with Logistic Regression being right under .8 and Naive Bayes being closer to .7. The highest f1 score was the Random Forests, with a .99 f1 score, and a similar accuracy. This led to the decision to hone in on the Random Forest model. This model was originally allowed to run with minimal parameters. After restricting the depth of the tree to four, the f1 score dropped closer to 85%. This became the starting point for optimization.
+
+## Random Forest: Optimization
+
+# Add Optimization Information
 
 
 ## Technologies Utilized
