@@ -1,0 +1,6 @@
+,Model,Oversample,Scaler,Neighbors,precision,recall,f1-score,support
+Active,Logistic Regression,False,MaxAbsScaler(),0,0.9497800586510264,0.7842009685230025,0.8590848806366048,3304.0
+Inactive,Logistic Regression,False,MaxAbsScaler(),0,0.447714949651433,0.8083916083916084,0.5762711864406779,715.0
+accuracy,Logistic Regression,False,MaxAbsScaler(),0,0.7885046031351083,0.7885046031351083,0.7885046031351083,0.7885046031351083
+macro avg,Logistic Regression,False,MaxAbsScaler(),0,0.6987475041512297,0.7962962884573055,0.7176780335386413,4019.0
+weighted avg,Logistic Regression,False,MaxAbsScaler(),0,0.860460189794418,0.7885046031351083,0.8087709240926666,4019.0

@@ -1,6 +1,0 @@
-,Model,Oversample,Scaler,Neighbors,precision,recall,f1-score,support
-Active,Decision Tree,True,PowerTransformer(),0,0.9510673234811166,0.8765133171912833,0.9122696487635849,3304.0
-Inactive,Decision Tree,True,PowerTransformer(),0,0.5811088295687885,0.7916083916083916,0.670219064535228,715.0
-accuracy,Decision Tree,True,PowerTransformer(),0,0.8614083105250062,0.8614083105250062,0.8614083105250062,0.8614083105250062
-macro avg,Decision Tree,True,PowerTransformer(),0,0.7660880765249525,0.8340608543998375,0.7912443566494064,4019.0
-weighted avg,Decision Tree,True,PowerTransformer(),0,0.8852498755718569,0.8614083105250062,0.8692076513206202,4019.0

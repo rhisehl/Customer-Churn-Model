@@ -1,6 +1,0 @@
-,Model,Oversample,Scaler,Neighbors,precision,recall,f1-score,support
-Active,Logistic Regression,False,PowerTransformer(),0,0.9490167516387472,0.7887409200968523,0.8614876033057851,3304.0
-Inactive,Logistic Regression,False,PowerTransformer(),0,0.4516889238020424,0.8041958041958042,0.5784708249496983,715.0
-accuracy,Logistic Regression,False,PowerTransformer(),0,0.7914904205026125,0.7914904205026125,0.7914904205026125,0.7914904205026125
-macro avg,Logistic Regression,False,PowerTransformer(),0,0.7003528377203948,0.7964683621463282,0.7199792141277417,4019.0
-weighted avg,Logistic Regression,False,PowerTransformer(),0,0.8605396685575719,0.7914904205026125,0.8111375170841871,4019.0

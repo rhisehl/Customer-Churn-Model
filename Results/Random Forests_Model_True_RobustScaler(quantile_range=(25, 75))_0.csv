@@ -1,0 +1,6 @@
+,Model,Oversample,Scaler,Neighbors,precision,recall,f1-score,support
+Active,Random Forests,True,"RobustScaler(quantile_range=(25, 75))",0,0.9572173913043478,0.8329297820823245,0.8907590224955494,3304.0
+Inactive,Random Forests,True,"RobustScaler(quantile_range=(25, 75))",0,0.5174825174825175,0.827972027972028,0.6369015599784831,715.0
+accuracy,Random Forests,True,"RobustScaler(quantile_range=(25, 75))",0,0.83204777307788,0.83204777307788,0.83204777307788,0.83204777307788
+macro avg,Random Forests,True,"RobustScaler(quantile_range=(25, 75))",0,0.7373499543934326,0.8304509050271762,0.7638302912370163,4019.0
+weighted avg,Random Forests,True,"RobustScaler(quantile_range=(25, 75))",0,0.8789863799128055,0.83204777307788,0.8455965229434961,4019.0

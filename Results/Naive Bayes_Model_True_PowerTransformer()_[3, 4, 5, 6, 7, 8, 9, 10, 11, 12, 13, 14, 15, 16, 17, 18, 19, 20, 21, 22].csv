@@ -1,6 +1,0 @@
-,Model,Oversample,Scaler,Neighbors,precision,recall,f1-score,support
-Active,Naive Bayes,True,PowerTransformer(),0,0.9334402566158782,0.7046004842615012,0.8030355294929286,3304.0
-Inactive,Naive Bayes,True,PowerTransformer(),0,0.36,0.7678321678321678,0.4901785714285713,715.0
-accuracy,Naive Bayes,True,PowerTransformer(),0,0.715849713859169,0.715849713859169,0.715849713859169,0.715849713859169
-macro avg,Naive Bayes,True,PowerTransformer(),0,0.6467201283079391,0.7362163260468345,0.64660705046075,4019.0
-weighted avg,Naive Bayes,True,PowerTransformer(),0,0.8314223955856834,0.715849713859169,0.7473767275481624,4019.0

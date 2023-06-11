@@ -1,301 +1,1251 @@
 ,Unnamed: 0,Model,Oversample,Scaler,Neighbors,precision,recall,f1-score,support
-0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),22,0.8575547866205305,0.9001210653753027,0.8783225044300058,3304.0
-1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),22,0.4010889292196007,0.3090909090909091,0.34913112164297,715.0
-2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),22,0.7949738740980343,0.7949738740980343,0.7949738740980343,0.7949738740980343
-3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),22,0.6293218579200657,0.6046059872331059,0.6137268130364879,4019.0
-4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),22,0.776347250407128,0.7949738740980343,0.7841767371513965,4019.0
-0,Active,Support Vector Machines (SVM),True,MinMaxScaler(),0,0.9786941580756012,0.8619854721549637,0.9166398455101384,3304.0
-1,Inactive,Support Vector Machines (SVM),True,MinMaxScaler(),0,0.5888187556357078,0.9132867132867132,0.7160087719298246,715.0
-2,accuracy,Support Vector Machines (SVM),True,MinMaxScaler(),0,0.8711122169693953,0.8711122169693953,0.8711122169693953,0.8711122169693953
-3,macro avg,Support Vector Machines (SVM),True,MinMaxScaler(),0,0.7837564568556545,0.8876360927208384,0.8163243087199814,4019.0
-4,weighted avg,Support Vector Machines (SVM),True,MinMaxScaler(),0,0.9093333935211042,0.8711122169693953,0.8809465840993584,4019.0
-0,Active,Naive Bayes,False,"RobustScaler(quantile_range=(25, 75))",0,0.9318092234923138,0.715496368038741,0.8094504365690808,3304.0
-1,Inactive,Naive Bayes,False,"RobustScaler(quantile_range=(25, 75))",0,0.3657219973009447,0.7580419580419581,0.4934000910332271,715.0
-2,accuracy,Naive Bayes,False,"RobustScaler(quantile_range=(25, 75))",0,0.7230654391639711,0.7230654391639711,0.7230654391639711,0.7230654391639711
-3,macro avg,Naive Bayes,False,"RobustScaler(quantile_range=(25, 75))",0,0.6487656103966293,0.7367691630403495,0.651425263801154,4019.0
-4,weighted avg,Naive Bayes,False,"RobustScaler(quantile_range=(25, 75))",0,0.8310995029830256,0.7230654391639711,0.7532235151811396,4019.0
-0,Active,Decision Tree,True,MinMaxScaler(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Decision Tree,True,MinMaxScaler(),0,1.0,1.0,1.0,715.0
-2,accuracy,Decision Tree,True,MinMaxScaler(),0,1.0,1.0,1.0,1.0
-3,macro avg,Decision Tree,True,MinMaxScaler(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Decision Tree,True,MinMaxScaler(),0,1.0,1.0,1.0,4019.0
-0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),22,0.9541666666666668,0.762409200968523,0.8475773889636609,3304.0
-1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),22,0.4307469180565627,0.8307692307692308,0.5673352435530086,715.0
-2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),22,0.7745707887534212,0.7745707887534212,0.7745707887534212,0.7745707887534212
-3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),22,0.6924567923616147,0.796589215868877,0.7074563162583347,4019.0
-4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),22,0.8610477016862675,0.7745707887534212,0.7977209236815964,4019.0
-0,Active,Naive Bayes,False,StandardScaler(),0,0.9289281598155974,0.7318401937046005,0.81868969019807,3304.0
-1,Inactive,Naive Bayes,False,StandardScaler(),0,0.3742937853107345,0.7412587412587412,0.4974190520882215,715.0
-2,accuracy,Naive Bayes,False,StandardScaler(),0,0.7335157999502364,0.7335157999502364,0.7335157999502364,0.7335157999502364
-3,macro avg,Naive Bayes,False,StandardScaler(),0,0.6516109725631659,0.7365494674816708,0.6580543711431458,4019.0
-4,weighted avg,Naive Bayes,False,StandardScaler(),0,0.8302559583299102,0.7335157999502364,0.7615340529130384,4019.0
-0,Active,Decision Tree,False,PowerTransformer(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Decision Tree,False,PowerTransformer(),0,1.0,1.0,1.0,715.0
-2,accuracy,Decision Tree,False,PowerTransformer(),0,1.0,1.0,1.0,1.0
-3,macro avg,Decision Tree,False,PowerTransformer(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Decision Tree,False,PowerTransformer(),0,1.0,1.0,1.0,4019.0
-0,Active,Decision Tree,True,PowerTransformer(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Decision Tree,True,PowerTransformer(),0,1.0,1.0,1.0,715.0
-2,accuracy,Decision Tree,True,PowerTransformer(),0,1.0,1.0,1.0,1.0
-3,macro avg,Decision Tree,True,PowerTransformer(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Decision Tree,True,PowerTransformer(),0,1.0,1.0,1.0,4019.0
-0,Active,Naive Bayes,False,MaxAbsScaler(),0,0.9377646062658764,0.6703995157384988,0.7818566890222379,3304.0
-1,Inactive,Naive Bayes,False,MaxAbsScaler(),0,0.3427881713940857,0.7944055944055944,0.478920741989882,715.0
-2,accuracy,Naive Bayes,False,MaxAbsScaler(),0,0.6924608111470515,0.6924608111470515,0.6924608111470515,0.6924608111470515
-3,macro avg,Naive Bayes,False,MaxAbsScaler(),0,0.640276388829981,0.7324025550720465,0.6303887155060599,4019.0
-4,weighted avg,Naive Bayes,False,MaxAbsScaler(),0,0.8319153524879888,0.6924608111470515,0.7279628840637571,4019.0
-0,Active,Support Vector Machines (SVM),True,MaxAbsScaler(),0,0.9788106630211894,0.8668280871670703,0.9194221508828252,3304.0
-1,Inactive,Support Vector Machines (SVM),True,MaxAbsScaler(),0,0.5974382433668801,0.9132867132867132,0.7223451327433629,715.0
-2,accuracy,Support Vector Machines (SVM),True,MaxAbsScaler(),0,0.8750933067927346,0.8750933067927346,0.8750933067927346,0.8750933067927346
-3,macro avg,Support Vector Machines (SVM),True,MaxAbsScaler(),0,0.7881244531940348,0.8900574002268917,0.820883641813094,4019.0
-4,weighted avg,Support Vector Machines (SVM),True,MaxAbsScaler(),0,0.9109626212066008,0.8750933067927346,0.8843611735328089,4019.0
-0,Active,Random Forests,True,MinMaxScaler(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Random Forests,True,MinMaxScaler(),0,1.0,1.0,1.0,715.0
-2,accuracy,Random Forests,True,MinMaxScaler(),0,1.0,1.0,1.0,1.0
-3,macro avg,Random Forests,True,MinMaxScaler(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Random Forests,True,MinMaxScaler(),0,1.0,1.0,1.0,4019.0
-0,Active,Naive Bayes,True,"RobustScaler(quantile_range=(25, 75))",0,0.9322100313479624,0.7200363196125908,0.8125,3304.0
-1,Inactive,Naive Bayes,True,"RobustScaler(quantile_range=(25, 75))",0,0.3694614860259032,0.7580419580419581,0.4967919340054996,715.0
-2,accuracy,Naive Bayes,True,"RobustScaler(quantile_range=(25, 75))",0,0.7267977108733515,0.7267977108733515,0.7267977108733515,0.7267977108733515
-3,macro avg,Naive Bayes,True,"RobustScaler(quantile_range=(25, 75))",0,0.6508357586869329,0.7390391388272745,0.6546459670027498,4019.0
-4,weighted avg,Naive Bayes,True,"RobustScaler(quantile_range=(25, 75))",0,0.8320942786967378,0.7267977108733515,0.7563339718372561,4019.0
-0,Active,Random Forests,False,StandardScaler(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Random Forests,False,StandardScaler(),0,1.0,1.0,1.0,715.0
-2,accuracy,Random Forests,False,StandardScaler(),0,1.0,1.0,1.0,1.0
-3,macro avg,Random Forests,False,StandardScaler(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Random Forests,False,StandardScaler(),0,1.0,1.0,1.0,4019.0
-0,Active,Decision Tree,True,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,3304.0
-1,Inactive,Decision Tree,True,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,715.0
-2,accuracy,Decision Tree,True,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,1.0
-3,macro avg,Decision Tree,True,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,4019.0
-4,weighted avg,Decision Tree,True,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,4019.0
-0,Active,Naive Bayes,True,MaxAbsScaler(),0,0.9307377049180328,0.6873486682808717,0.7907381615598885,3304.0
-1,Inactive,Naive Bayes,True,MaxAbsScaler(),0,0.3457884737175427,0.7636363636363637,0.4760244115082825,715.0
-2,accuracy,Naive Bayes,True,MaxAbsScaler(),0,0.7009206270216471,0.7009206270216471,0.7009206270216471,0.7009206270216471
-3,macro avg,Naive Bayes,True,MaxAbsScaler(),0,0.6382630893177877,0.7254925159586176,0.6333812865340855,4019.0
-4,weighted avg,Naive Bayes,True,MaxAbsScaler(),0,0.8266723403227726,0.7009206270216471,0.7347490271267215,4019.0
-0,Active,Decision Tree,False,MaxAbsScaler(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Decision Tree,False,MaxAbsScaler(),0,1.0,1.0,1.0,715.0
-2,accuracy,Decision Tree,False,MaxAbsScaler(),0,1.0,1.0,1.0,1.0
-3,macro avg,Decision Tree,False,MaxAbsScaler(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Decision Tree,False,MaxAbsScaler(),0,1.0,1.0,1.0,4019.0
-0,Active,Random Forests,False,MaxAbsScaler(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Random Forests,False,MaxAbsScaler(),0,1.0,1.0,1.0,715.0
-2,accuracy,Random Forests,False,MaxAbsScaler(),0,1.0,1.0,1.0,1.0
-3,macro avg,Random Forests,False,MaxAbsScaler(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Random Forests,False,MaxAbsScaler(),0,1.0,1.0,1.0,4019.0
-0,Active,Naive Bayes,True,MinMaxScaler(),0,0.93437886917045,0.6852300242130751,0.7906408241662302,3304.0
-1,Inactive,Naive Bayes,True,MinMaxScaler(),0,0.3483709273182957,0.7776223776223776,0.4811769796624837,715.0
-2,accuracy,Naive Bayes,True,MinMaxScaler(),0,0.7016670813635233,0.7016670813635233,0.7016670813635233,0.7016670813635233
-3,macro avg,Naive Bayes,True,MinMaxScaler(),0,0.6413748982443728,0.7314262009177264,0.6359089019143569,4019.0
-4,weighted avg,Naive Bayes,True,MinMaxScaler(),0,0.8301251547080736,0.7016670813635233,0.7355856739248322,4019.0
-0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),22,0.9618174875906834,0.762409200968523,0.8505824750970792,3304.0
-1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),22,0.4392857142857143,0.8601398601398601,0.5815602836879432,715.0
-2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),22,0.7797959691465539,0.7797959691465539,0.7797959691465539,0.7797959691465539
-3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),22,0.7005516009381989,0.8112745305541915,0.7160713793925112,4019.0
-4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),22,0.8688564978138601,0.7797959691465539,0.8027220951872678,4019.0
-0,Active,Random Forests,True,StandardScaler(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Random Forests,True,StandardScaler(),0,1.0,1.0,1.0,715.0
-2,accuracy,Random Forests,True,StandardScaler(),0,1.0,1.0,1.0,1.0
-3,macro avg,Random Forests,True,StandardScaler(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Random Forests,True,StandardScaler(),0,1.0,1.0,1.0,4019.0
-0,Active,Decision Tree,False,StandardScaler(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Decision Tree,False,StandardScaler(),0,1.0,1.0,1.0,715.0
-2,accuracy,Decision Tree,False,StandardScaler(),0,1.0,1.0,1.0,1.0
-3,macro avg,Decision Tree,False,StandardScaler(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Decision Tree,False,StandardScaler(),0,1.0,1.0,1.0,4019.0
-0,Active,Random Forests,False,PowerTransformer(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Random Forests,False,PowerTransformer(),0,1.0,1.0,1.0,715.0
-2,accuracy,Random Forests,False,PowerTransformer(),0,1.0,1.0,1.0,1.0
-3,macro avg,Random Forests,False,PowerTransformer(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Random Forests,False,PowerTransformer(),0,1.0,1.0,1.0,4019.0
-0,Active,Decision Tree,True,MaxAbsScaler(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Decision Tree,True,MaxAbsScaler(),0,1.0,1.0,1.0,715.0
-2,accuracy,Decision Tree,True,MaxAbsScaler(),0,1.0,1.0,1.0,1.0
-3,macro avg,Decision Tree,True,MaxAbsScaler(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Decision Tree,True,MaxAbsScaler(),0,1.0,1.0,1.0,4019.0
-0,Active,Logistic Regression,True,"RobustScaler(quantile_range=(25, 75))",0,0.9497999272462714,0.7902542372881356,0.8627127044440773,3304.0
-1,Inactive,Logistic Regression,True,"RobustScaler(quantile_range=(25, 75))",0,0.4543307086614173,0.806993006993007,0.581360201511335,715.0
-2,accuracy,Logistic Regression,True,"RobustScaler(quantile_range=(25, 75))",0,0.7932321473003234,0.7932321473003234,0.7932321473003234,0.7932321473003234
-3,macro avg,Logistic Regression,True,"RobustScaler(quantile_range=(25, 75))",0,0.7020653179538443,0.7986236221405714,0.7220364529777061,4019.0
-4,weighted avg,Logistic Regression,True,"RobustScaler(quantile_range=(25, 75))",0,0.8616534999538675,0.7932321473003234,0.8126587010609196,4019.0
-0,Active,Logistic Regression,False,PowerTransformer(),0,0.9490167516387472,0.7887409200968523,0.8614876033057851,3304.0
-1,Inactive,Logistic Regression,False,PowerTransformer(),0,0.4516889238020424,0.8041958041958042,0.5784708249496983,715.0
-2,accuracy,Logistic Regression,False,PowerTransformer(),0,0.7914904205026125,0.7914904205026125,0.7914904205026125,0.7914904205026125
-3,macro avg,Logistic Regression,False,PowerTransformer(),0,0.7003528377203948,0.7964683621463282,0.7199792141277417,4019.0
-4,weighted avg,Logistic Regression,False,PowerTransformer(),0,0.8605396685575719,0.7914904205026125,0.8111375170841871,4019.0
-0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),22,0.861087389695417,0.9155569007263924,0.8874871644418365,3304.0
-1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),22,0.4486166007905138,0.3174825174825175,0.3718263718263718,715.0
-2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),22,0.80915650659368,0.80915650659368,0.80915650659368,0.80915650659368
-3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),22,0.6548519952429654,0.6165197091044549,0.6296567681341042,4019.0
-4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),22,0.78770679400818,0.80915650659368,0.7957485561512027,4019.0
-0,Active,Naive Bayes,True,PowerTransformer(),0,0.9334402566158782,0.7046004842615012,0.8030355294929286,3304.0
-1,Inactive,Naive Bayes,True,PowerTransformer(),0,0.36,0.7678321678321678,0.4901785714285713,715.0
-2,accuracy,Naive Bayes,True,PowerTransformer(),0,0.715849713859169,0.715849713859169,0.715849713859169,0.715849713859169
-3,macro avg,Naive Bayes,True,PowerTransformer(),0,0.6467201283079391,0.7362163260468345,0.64660705046075,4019.0
-4,weighted avg,Naive Bayes,True,PowerTransformer(),0,0.8314223955856834,0.715849713859169,0.7473767275481624,4019.0
-0,Active,Support Vector Machines (SVM),False,PowerTransformer(),0,0.980995162404976,0.8592615012106537,0.9161019683768956,3304.0
-1,Inactive,Support Vector Machines (SVM),False,PowerTransformer(),0,0.5866666666666667,0.9230769230769232,0.717391304347826,715.0
-2,accuracy,Support Vector Machines (SVM),False,PowerTransformer(),0,0.870614580741478,0.870614580741478,0.870614580741478,0.870614580741478
-3,macro avg,Support Vector Machines (SVM),False,PowerTransformer(),0,0.7838309145358213,0.8911692121437884,0.8167466363623608,4019.0
-4,weighted avg,Support Vector Machines (SVM),False,PowerTransformer(),0,0.910842170503286,0.870614580741478,0.8807503573341524,4019.0
-0,Active,Naive Bayes,True,StandardScaler(),0,0.935,0.6791767554479419,0.7868162692847124,3304.0
-1,Inactive,Naive Bayes,True,StandardScaler(),0,0.3452748610253243,0.7818181818181819,0.4790059982862039,715.0
-2,accuracy,Naive Bayes,True,StandardScaler(),0,0.6974371734262255,0.6974371734262255,0.6974371734262255,0.6974371734262255
-3,macro avg,Naive Bayes,True,StandardScaler(),0,0.6401374305126621,0.7304974686330619,0.6329111337854582,4019.0
-4,weighted avg,Naive Bayes,True,StandardScaler(),0,0.8300849777638983,0.6974371734262255,0.7320552979575331,4019.0
-0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),22,0.9557281553398058,0.7448547215496368,0.8372172138118728,3304.0
-1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),22,0.4162049861495845,0.8405594405594405,0.556739231125521,715.0
-2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),22,0.7618810649415277,0.7618810649415277,0.7618810649415277,0.7618810649415277
-3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),22,0.6859665707446951,0.7927070810545387,0.6969782224686969,4019.0
-4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),22,0.8597443121024313,0.7618810649415277,0.787318791910718,4019.0
-0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",22,0.8802687843616371,0.8722760290556901,0.8762541806020068,3304.0
-1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",22,0.4335570469798657,0.4517482517482517,0.4424657534246575,715.0
-2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",22,0.7974620552376213,0.7974620552376213,0.7974620552376213,0.7974620552376213
-3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",22,0.6569129156707514,0.662012140401971,0.6593599670133321,4019.0
-4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",22,0.8007965543969777,0.7974620552376213,0.7990810715122321,4019.0
-0,Active,Logistic Regression,True,MinMaxScaler(),0,0.9481884057971014,0.7920702179176755,0.863126649076517,3304.0
-1,Inactive,Logistic Regression,True,MinMaxScaler(),0,0.4543288324066719,0.8,0.5795339412360689,715.0
-2,accuracy,Logistic Regression,True,MinMaxScaler(),0,0.7934809654142821,0.7934809654142821,0.7934809654142821,0.7934809654142821
-3,macro avg,Logistic Regression,True,MinMaxScaler(),0,0.7012586191018867,0.7960351089588378,0.721330295156293,4019.0
-4,weighted avg,Logistic Regression,True,MinMaxScaler(),0,0.8603283423549126,0.7934809654142821,0.8126741021479478,4019.0
-0,Active,Support Vector Machines (SVM),True,StandardScaler(),0,0.9799456152277364,0.8725786924939467,0.9231508165225744,3304.0
-1,Inactive,Support Vector Machines (SVM),True,StandardScaler(),0,0.6090993500464252,0.9174825174825176,0.7321428571428572,715.0
-2,accuracy,Support Vector Machines (SVM),True,StandardScaler(),0,0.8805673052998259,0.8805673052998259,0.8805673052998259,0.8805673052998259
-3,macro avg,Support Vector Machines (SVM),True,StandardScaler(),0,0.7945224826370807,0.8950306049882322,0.8276468368327158,4019.0
-4,weighted avg,Support Vector Machines (SVM),True,StandardScaler(),0,0.9139702284139424,0.8805673052998259,0.8891695547767425,4019.0
-0,Active,Logistic Regression,True,StandardScaler(),0,0.9492515516611902,0.7869249394673123,0.8604997517789177,3304.0
-1,Inactive,Logistic Regression,True,StandardScaler(),0,0.45,0.8055944055944056,0.5774436090225564,715.0
-2,accuracy,Logistic Regression,True,StandardScaler(),0,0.7902463299328191,0.7902463299328191,0.7902463299328191,0.7902463299328191
-3,macro avg,Logistic Regression,True,StandardScaler(),0,0.6996257758305952,0.796259672530859,0.7189716804007371,4019.0
-4,weighted avg,Logistic Regression,True,StandardScaler(),0,0.8604322285863579,0.7902463299328191,0.810142662435599,4019.0
-0,Active,Support Vector Machines (SVM),True,PowerTransformer(),0,0.9793672627235214,0.8619854721549637,0.9169349645846748,3304.0
-1,Inactive,Support Vector Machines (SVM),True,PowerTransformer(),0,0.5895589558955896,0.916083916083916,0.7174151150054764,715.0
-2,accuracy,Support Vector Machines (SVM),True,PowerTransformer(),0,0.8716098531973128,0.8716098531973128,0.8716098531973128,0.8716098531973128
-3,macro avg,Support Vector Machines (SVM),True,PowerTransformer(),0,0.7844631093095555,0.8890346941194398,0.8171750397950757,4019.0
-4,weighted avg,Support Vector Machines (SVM),True,PowerTransformer(),0,0.910018434810615,0.8716098531973128,0.8814393954258974,4019.0
-0,Active,Support Vector Machines (SVM),False,MaxAbsScaler(),0,0.978082191780822,0.864406779661017,0.9177377892030848,3304.0
-1,Inactive,Support Vector Machines (SVM),False,MaxAbsScaler(),0,0.5923566878980892,0.9104895104895104,0.7177508269018742,715.0
-2,accuracy,Support Vector Machines (SVM),False,MaxAbsScaler(),0,0.8726051256531475,0.8726051256531475,0.8726051256531475,0.8726051256531475
-3,macro avg,Support Vector Machines (SVM),False,MaxAbsScaler(),0,0.7852194398394555,0.8874481450752637,0.8177443080524796,4019.0
-4,weighted avg,Support Vector Machines (SVM),False,MaxAbsScaler(),0,0.9094597147277854,0.8726051256531475,0.8821591183781619,4019.0
-0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),22,0.8542465753424657,0.9437046004842616,0.8967500719010641,3304.0
-1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),22,0.4959349593495935,0.2559440559440559,0.3376383763837638,715.0
-2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),22,0.8213485941776562,0.8213485941776562,0.8213485941776562,0.8213485941776562
-3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),22,0.6750907673460296,0.5998243282141588,0.617194224142414,4019.0
-4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),22,0.7905011646843657,0.8213485941776562,0.7972813328378967,4019.0
-0,Active,Random Forests,False,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,3304.0
-1,Inactive,Random Forests,False,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,715.0
-2,accuracy,Random Forests,False,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,1.0
-3,macro avg,Random Forests,False,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,4019.0
-4,weighted avg,Random Forests,False,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,4019.0
-0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),22,0.9619771863117872,0.7657384987893463,0.8527131782945736,3304.0
-1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),22,0.4427645788336933,0.8601398601398601,0.5846007604562737,715.0
-2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),22,0.7825329684000996,0.7825329684000996,0.7825329684000996,0.7825329684000996
-3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),22,0.7023708825727402,0.8129391794646033,0.7186569693754237,4019.0
-4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),22,0.8696066925703497,0.7825329684000996,0.8050146516077399,4019.0
-0,Active,Support Vector Machines (SVM),False,StandardScaler(),0,0.9795291709314228,0.8689467312348669,0.9209302325581394,3304.0
-1,Inactive,Support Vector Machines (SVM),False,StandardScaler(),0,0.6020220588235294,0.916083916083916,0.7265668330560178,715.0
-2,accuracy,Support Vector Machines (SVM),False,StandardScaler(),0,0.8773326698183628,0.8773326698183628,0.8773326698183628,0.8773326698183628
-3,macro avg,Support Vector Machines (SVM),False,StandardScaler(),0,0.790775614877476,0.8925153236593915,0.8237485328070786,4019.0
-4,weighted avg,Support Vector Machines (SVM),False,StandardScaler(),0,0.9123687864683364,0.8773326698183628,0.8863520214001358,4019.0
-0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",22,0.8830177153329261,0.875,0.8789905746427487,3304.0
-1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",22,0.4456375838926174,0.4643356643356643,0.4547945205479451,715.0
-2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",22,0.8019407812888778,0.8019407812888778,0.8019407812888778,0.8019407812888778
-3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",22,0.6643276496127717,0.6696678321678322,0.6668925475953469,4019.0
-4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",22,0.8052056242705173,0.8019407812888778,0.8035239962208068,4019.0
-0,Active,Naive Bayes,False,PowerTransformer(),0,0.9392999556933984,0.6416464891041163,0.7624527962596656,3304.0
-1,Inactive,Naive Bayes,False,PowerTransformer(),0,0.3280363223609535,0.8083916083916084,0.4666935809446911,715.0
-2,accuracy,Naive Bayes,False,PowerTransformer(),0,0.6713112714605624,0.6713112714605624,0.6713112714605624,0.6713112714605624
-3,macro avg,Naive Bayes,False,PowerTransformer(),0,0.6336681390271759,0.7250190487478623,0.6145731886021784,4019.0
-4,weighted avg,Naive Bayes,False,PowerTransformer(),0,0.8305531286636153,0.6713112714605624,0.7098357674091538,4019.0
-0,Active,Random Forests,True,PowerTransformer(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Random Forests,True,PowerTransformer(),0,1.0,1.0,1.0,715.0
-2,accuracy,Random Forests,True,PowerTransformer(),0,1.0,1.0,1.0,1.0
-3,macro avg,Random Forests,True,PowerTransformer(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Random Forests,True,PowerTransformer(),0,1.0,1.0,1.0,4019.0
-0,Active,Random Forests,True,MaxAbsScaler(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Random Forests,True,MaxAbsScaler(),0,1.0,1.0,1.0,715.0
-2,accuracy,Random Forests,True,MaxAbsScaler(),0,1.0,1.0,1.0,1.0
-3,macro avg,Random Forests,True,MaxAbsScaler(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Random Forests,True,MaxAbsScaler(),0,1.0,1.0,1.0,4019.0
-0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),22,0.854247640199889,0.9312953995157384,0.8911091804228208,3304.0
-1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),22,0.4556354916067146,0.2657342657342657,0.3356890459363958,715.0
-2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),22,0.8128887783030605,0.8128887783030605,0.8128887783030605,0.8128887783030605
-3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),22,0.6549415659033018,0.598514832625002,0.6133991131796084,4019.0
-4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),22,0.7833325652448953,0.8128887783030605,0.7922971883457386,4019.0
-0,Active,Logistic Regression,False,MinMaxScaler(),0,0.9503105590062112,0.787227602905569,0.8611157093196491,3304.0
-1,Inactive,Logistic Regression,False,MinMaxScaler(),0,0.4516380655226209,0.8097902097902098,0.5798698047070606,715.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",9,0.9890667707926591,0.7666464891041163,0.8637681159420291,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",9,0.4711934156378601,0.9608391608391608,0.6323055683387022,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",9,0.8011943269470018,0.8011943269470018,0.8011943269470018,0.8011943269470018
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",9,0.7301300932152597,0.8637428249716386,0.7480368421403656,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",9,0.8969345366708176,0.8011943269470018,0.8225897826411137,4019.0
+0,Active,Logistic Regression,True,MinMaxScaler(),0,0.9494320263832906,0.7842009685230025,0.8589424830101111,3304.0
+1,Inactive,Logistic Regression,True,MinMaxScaler(),0,0.4472868217054263,0.806993006993007,0.5755610972568579,715.0
+2,accuracy,Logistic Regression,True,MinMaxScaler(),0,0.7882557850211496,0.7882557850211496,0.7882557850211496,0.7882557850211496
+3,macro avg,Logistic Regression,True,MinMaxScaler(),0,0.6983594240443585,0.7955969877580047,0.7172517901334845,4019.0
+4,weighted avg,Logistic Regression,True,MinMaxScaler(),0,0.8600979081089256,0.7882557850211496,0.8085275313272109,4019.0
+0,Active,Support Vector Machines (SVM),True,PowerTransformer(),0,0.9905813575836312,0.9231234866828087,0.9556634811217296,3304.0
+1,Inactive,Support Vector Machines (SVM),True,PowerTransformer(),0,0.7297872340425532,0.9594405594405594,0.8290030211480361,715.0
+2,accuracy,Support Vector Machines (SVM),True,PowerTransformer(),0,0.929584473749689,0.929584473749689,0.929584473749689,0.929584473749689
+3,macro avg,Support Vector Machines (SVM),True,PowerTransformer(),0,0.8601842958130921,0.941282023061684,0.8923332511348829,4019.0
+4,weighted avg,Support Vector Machines (SVM),True,PowerTransformer(),0,0.9441847916886644,0.929584473749689,0.933129958135616,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),15,0.9757971571263926,0.7687651331719129,0.8599966141865583,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),15,0.4604519774011299,0.911888111888112,0.6119192867198499,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),15,0.7942274197561583,0.7942274197561583,0.7942274197561583,0.7942274197561583
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),15,0.7181245672637613,0.8403266225300123,0.7359579504532041,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),15,0.8841146979316769,0.7942274197561583,0.8158624292801895,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),22,0.9654377880184332,0.7608958837772397,0.8510494245091402,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),22,0.4416961130742049,0.8741258741258742,0.5868544600938966,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),22,0.7810400597163474,0.7810400597163474,0.7810400597163474,0.7810400597163474
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),22,0.703566950546319,0.8175108789515569,0.7189519423015185,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),22,0.8722615507491812,0.7810400597163474,0.8040478321834624,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),19,0.9732246798603028,0.7590799031476998,0.8529161707192656,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),19,0.4479889042995839,0.9034965034965036,0.5989800649049606,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),19,0.7847723314257278,0.7847723314257278,0.7847723314257278,0.7847723314257278
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),19,0.7106067920799433,0.8312882033221016,0.7259481178121131,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),19,0.8797826346933671,0.7847723314257278,0.8077396801352327,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),19,0.9652375434530708,0.7563559322033898,0.8481248939419651,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),19,0.4370629370629371,0.8741258741258742,0.5827505827505828,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),19,0.7773077880069669,0.7773077880069669,0.7773077880069669,0.7773077880069669
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),19,0.7011502402580039,0.8152409031646319,0.715437738346274,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),19,0.8712726657300187,0.7773077880069669,0.8009134899852997,4019.0
+0,Active,Support Vector Machines (SVM),True,"RobustScaler(quantile_range=(25, 75))",0,0.9880645161290322,0.9270581113801452,0.9565896314803248,3304.0
+1,Inactive,Support Vector Machines (SVM),True,"RobustScaler(quantile_range=(25, 75))",0,0.7377584330794341,0.9482517482517484,0.8298653610771114,715.0
+2,accuracy,Support Vector Machines (SVM),True,"RobustScaler(quantile_range=(25, 75))",0,0.9308285643194824,0.9308285643194824,0.9308285643194824,0.9308285643194824
+3,macro avg,Support Vector Machines (SVM),True,"RobustScaler(quantile_range=(25, 75))",0,0.8629114746042332,0.9376549298159468,0.8932274962787181,4019.0
+4,weighted avg,Support Vector Machines (SVM),True,"RobustScaler(quantile_range=(25, 75))",0,0.9435338245688276,0.9308285643194824,0.9340447563028434,4019.0
+0,Active,Support Vector Machines (SVM),False,MinMaxScaler(),0,0.9909061383566092,0.9234261501210652,0.955976813410622,3304.0
+1,Inactive,Support Vector Machines (SVM),False,MinMaxScaler(),0,0.7308510638297873,0.9608391608391608,0.8302114803625377,715.0
+2,accuracy,Support Vector Machines (SVM),False,MinMaxScaler(),0,0.9300821099776064,0.9300821099776064,0.9300821099776064,0.9300821099776064
+3,macro avg,Support Vector Machines (SVM),False,MinMaxScaler(),0,0.8608786010931982,0.942132655480113,0.8930941468865798,4019.0
+4,weighted avg,Support Vector Machines (SVM),False,MinMaxScaler(),0,0.9446410529406656,0.9300821099776064,0.9336025379367776,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",14,0.982837528604119,0.7799636803874092,0.8697266284171448,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",14,0.4795991410164638,0.9370629370629372,0.634469696969697,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",14,0.8079124160238865,0.8079124160238865,0.8079124160238865,0.8079124160238865
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",14,0.7312183348102914,0.8585133087251731,0.7520981626934209,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",14,0.8933089276772282,0.8079124160238865,0.8278732554425429,4019.0
+0,Active,Decision Tree,False,PowerTransformer(),0,0.9554118447923756,0.8495762711864406,0.899391220762576,3304.0
+1,Inactive,Decision Tree,False,PowerTransformer(),0,0.5402405180388529,0.8167832167832167,0.6503340757238306,715.0
+2,accuracy,Decision Tree,False,PowerTransformer(),0,0.8437422244339388,0.8437422244339388,0.8437422244339388,0.8437422244339388
+3,macro avg,Decision Tree,False,PowerTransformer(),0,0.7478261814156143,0.8331797439848287,0.7748626482432033,4019.0
+4,weighted avg,Decision Tree,False,PowerTransformer(),0,0.8815508100502087,0.8437422244339388,0.8550827214585942,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),18,0.9693693693693692,0.8141646489104116,0.8850139825629215,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),18,0.5064308681672026,0.8811188811188811,0.6431852986217458,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),18,0.8260761383428714,0.8260761383428714,0.8260761383428714,0.8260761383428714
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),18,0.737900118768286,0.8476417650146464,0.7640996405923337,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),18,0.8870103177745573,0.8260761383428714,0.8419914622797812,4019.0
+0,Active,Support Vector Machines (SVM),False,PowerTransformer(),0,0.9908883826879272,0.9216101694915254,0.9549945115257958,3304.0
+1,Inactive,Support Vector Machines (SVM),False,PowerTransformer(),0,0.726215644820296,0.9608391608391608,0.827212522576761,715.0
+2,accuracy,Support Vector Machines (SVM),False,PowerTransformer(),0,0.928589201293854,0.928589201293854,0.928589201293854,0.928589201293854
+3,macro avg,Support Vector Machines (SVM),False,PowerTransformer(),0,0.8585520137541116,0.9412246651653432,0.8911035170512784,4019.0
+4,weighted avg,Support Vector Machines (SVM),False,PowerTransformer(),0,0.9438017920993836,0.928589201293854,0.9322614629817402,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),6,0.9883281840027464,0.8713680387409201,0.9261701785427054,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),6,0.6157323688969258,0.9524475524475524,0.7479406919275122,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),6,0.8857924856929584,0.8857924856929584,0.8857924856929584,0.8857924856929584
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),6,0.8020302764498362,0.9119077955942364,0.8370554352351088,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),6,0.92204154359452,0.8857924856929584,0.8944622703740407,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),8,0.9843971631205674,0.8401937046004843,0.9065969954278248,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),8,0.5596330275229358,0.9384615384615383,0.7011494252873564,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),8,0.8576760388156258,0.8576760388156258,0.8576760388156258,0.8576760388156258
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),8,0.7720150953217515,0.8893276215310113,0.8038732103575906,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),8,0.9088295201864278,0.8576760388156258,0.8700468554302048,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),5,0.998589562764457,0.8571428571428571,0.9224755700325732,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),5,0.6010143702451395,0.9944055944055944,0.7492096944151738,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),5,0.8815625777556606,0.8815625777556606,0.8815625777556606,0.8815625777556606
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),5,0.7998019665047982,0.9257742257742256,0.8358426322238736,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),5,0.9278589674294702,0.8815625777556606,0.8916507128376391,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),4,0.9929824561403509,0.9421912832929782,0.9669203292436714,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),4,0.7839366515837104,0.9692307692307692,0.8667917448405253,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),4,0.9470017417267976,0.9470017417267976,0.9470017417267976,0.9470017417267976
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),4,0.8884595538620306,0.9557110262618738,0.9168560370420984,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),4,0.9557921724235064,0.9470017417267976,0.9491069582936218,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),17,0.9751053236307928,0.7705811138014528,0.8608622147083685,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),17,0.4616477272727273,0.9090909090909092,0.6123410268487989,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),17,0.795222692211993,0.795222692211993,0.795222692211993,0.795222692211993
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),17,0.71837652545176,0.8398360114461809,0.7366016207785837,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),17,0.8837586748634335,0.795222692211993,0.8166490648403436,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),19,0.968737633557578,0.7409200968523002,0.8396501457725948,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),19,0.4262734584450402,0.8895104895104895,0.5763479836882646,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),19,0.767355063448619,0.767355063448619,0.767355063448619,0.767355063448619
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),19,0.6975055460013092,0.8152152931813949,0.7079990647304297,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),19,0.8722305708042901,0.767355063448619,0.7928073874022797,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),19,0.9719803104884512,0.7769370460048426,0.8635828427249789,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),19,0.465166908563135,0.8965034965034965,0.612517916865743,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),19,0.7982085095794974,0.7982085095794974,0.7982085095794974,0.7982085095794974
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),19,0.7185736095257932,0.8367202712541695,0.7380503797953609,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),19,0.8818156968092772,0.7982085095794974,0.8189171492715442,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),14,0.9737034331628928,0.8069007263922519,0.8824892419728567,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),14,0.501951600312256,0.8993006993006993,0.6442885771543087,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),14,0.8233391390893257,0.8233391390893257,0.8233391390893257,0.8233391390893257
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),14,0.7378275167375743,0.8531007128464756,0.7633889095635826,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),14,0.8897764462287783,0.8233391390893257,0.8401121642556978,4019.0
+0,Active,Random Forests,False,"RobustScaler(quantile_range=(25, 75))",0,0.9527397260273972,0.8420096852300242,0.8939588688946016,3304.0
+1,Inactive,Random Forests,False,"RobustScaler(quantile_range=(25, 75))",0,0.5250227479526842,0.806993006993007,0.6361631753031973,715.0
+2,accuracy,Random Forests,False,"RobustScaler(quantile_range=(25, 75))",0,0.8357800447872605,0.8357800447872605,0.8357800447872605,0.8357800447872605
+3,macro avg,Random Forests,False,"RobustScaler(quantile_range=(25, 75))",0,0.7388812369900408,0.8245013461115156,0.7650610220988995,4019.0
+4,weighted avg,Random Forests,False,"RobustScaler(quantile_range=(25, 75))",0,0.8766467577956433,0.8357800447872605,0.8480957385343493,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),4,0.9928986442866364,0.9309927360774818,0.9609497032177444,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),4,0.752442996742671,0.9692307692307692,0.8471882640586796,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),4,0.937795471510326,0.937795471510326,0.937795471510326,0.937795471510326
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),4,0.8726708205146538,0.9501117526541256,0.904068983638212,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),4,0.950120393977123,0.937795471510326,0.9407109799038028,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),10,0.9821937321937322,0.8347457627118644,0.9024869109947644,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),10,0.5491329479768786,0.93006993006993,0.6905503634475598,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),10,0.8517044040806171,0.8517044040806171,0.8517044040806171,0.8517044040806171
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),10,0.7656633400853055,0.8824078463908973,0.7965186372211621,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),10,0.9051500743895396,0.8517044040806171,0.864782349786441,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",4,0.9944661458333334,0.924636803874092,0.9582810539523212,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",4,0.737064413938754,0.9762237762237762,0.8399518652226234,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",4,0.9338143816869868,0.9338143816869868,0.9338143816869868,0.9338143816869868
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",4,0.8657652798860437,0.950430290048934,0.8991164595874723,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",4,0.9486731032096398,0.9338143816869868,0.9372297053726412,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),3,0.998380829015544,0.9331113801452784,0.9646433041301627,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),3,0.7626208378088077,0.993006993006993,0.8626974483596598,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),3,0.9437671062453348,0.9437671062453348,0.9437671062453348,0.9437671062453348
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),3,0.8805008334121759,0.9630591865761358,0.9136703762449112,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),3,0.9564379592188742,0.9437671062453348,0.9465066316056768,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),21,0.96337140606538,0.7403147699757869,0.8372411432483314,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),21,0.4202702702702702,0.8699300699300699,0.566742596810934,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),21,0.7633739736252799,0.7633739736252799,0.7633739736252799,0.7633739736252799
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),21,0.6918208381678251,0.8051224199529284,0.7019918700296327,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),21,0.8667510248527641,0.7633739736252799,0.7891181124688492,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),7,0.9922907488986784,0.8180992736077481,0.8968148639681487,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),7,0.5359073359073359,0.9706293706293706,0.690547263681592,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),7,0.8452351331176909,0.8452351331176909,0.8452351331176909,0.8452351331176909
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),7,0.7640990424030072,0.8943643221185593,0.7936810638248704,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),7,0.9110978799539634,0.8452351331176909,0.8601188365471762,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",16,0.9811610918877356,0.7723970944309927,0.8643522438611346,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",16,0.4696755994358251,0.9314685314685316,0.6244725738396624,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",16,0.8006966907190843,0.8006966907190843,0.8006966907190843,0.8006966907190843
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",16,0.7254183456617803,0.8519328129497621,0.7444124088503985,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",16,0.8901652901701151,0.8006966907190843,0.821676462804814,4019.0
+0,Active,Decision Tree,True,"RobustScaler(quantile_range=(25, 75))",0,0.9548872180451128,0.8456416464891041,0.8969502407704655,3304.0
+1,Inactive,Decision Tree,True,"RobustScaler(quantile_range=(25, 75))",0,0.5333943275388838,0.8153846153846154,0.6449115044247788,715.0
+2,accuracy,Decision Tree,True,"RobustScaler(quantile_range=(25, 75))",0,0.8402587708385171,0.8402587708385171,0.8402587708385171,0.8402587708385171
+3,macro avg,Decision Tree,True,"RobustScaler(quantile_range=(25, 75))",0,0.7441407727919983,0.8305131309368597,0.7709308725976222,4019.0
+4,weighted avg,Decision Tree,True,"RobustScaler(quantile_range=(25, 75))",0,0.8799015458102399,0.8402587708385171,0.8521113016096876,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",5,0.9949127906976744,0.8286924939467313,0.904227212681638,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",5,0.55327545382794,0.9804195804195804,0.7073662966700303,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",5,0.8556854939039562,0.8556854939039562,0.8556854939039562,0.8556854939039562
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",5,0.7740941222628073,0.9045560371831558,0.8057967546758342,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",5,0.9163433217099014,0.8556854939039562,0.8692046809701927,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),12,0.9736366919465512,0.8159806295399515,0.8878643174707723,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),12,0.5136,0.8979020979020979,0.6534351145038167,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),12,0.8305548643941278,0.8305548643941278,0.8305548643941278,0.8305548643941278
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),12,0.7436183459732755,0.8569413637210247,0.7706497159872945,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),12,0.8917938865865651,0.8305548643941278,0.8461582014913313,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),20,0.9691516709511568,0.798728813559322,0.875725900116144,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),20,0.4868827160493827,0.8825174825174825,0.627548483341621,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),20,0.8136352326449365,0.8136352326449365,0.8136352326449365,0.8136352326449365
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),20,0.7280171935002697,0.8406231480384023,0.7516371917288825,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),20,0.8833536359288209,0.8136352326449365,0.8315739088263246,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),12,0.978401727861771,0.822639225181598,0.8937849391647484,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),12,0.5278001611603546,0.916083916083916,0.6697341513292433,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),12,0.8392634983826822,0.8392634983826822,0.8392634983826822,0.8392634983826822
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),12,0.7531009445110628,0.8693615706327571,0.7817595452469959,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),12,0.8982374780007327,0.8392634983826822,0.8539251946257124,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),4,0.9916047788182112,0.9294794188861986,0.9595375722543352,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),4,0.7472885032537961,0.9636363636363636,0.8417837507635919,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),4,0.9355561084846976,0.9355561084846976,0.9355561084846976,0.9355561084846976
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),4,0.8694466410360037,0.9465578912612812,0.9006606615089636,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),4,0.9481397036680352,0.9355561084846976,0.9385885843553848,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),22,0.9596036585365854,0.7621065375302664,0.8495276653171391,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),22,0.4365591397849462,0.8517482517482518,0.5772511848341233,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),22,0.778054242348843,0.778054242348843,0.778054242348843,0.778054242348843
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),22,0.6980813991607658,0.806927394639259,0.7133894250756312,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),22,0.8665514488059504,0.778054242348843,0.8010883312675355,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),9,0.9891507669285448,0.8002421307506054,0.8847247783168815,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),9,0.5096582466567607,0.9594405594405594,0.665696263949539,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),9,0.8285643194824583,0.8285643194824583,0.8285643194824583,0.8285643194824583
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),9,0.7494045067926527,0.8798413450955824,0.7752105211332102,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),9,0.9038466733743458,0.8285643194824583,0.8457585210955204,4019.0
+0,Active,Naive Bayes,True,PowerTransformer(),0,0.935986869101354,0.6903753026634383,0.7946350809963421,3304.0
+1,Inactive,Naive Bayes,True,PowerTransformer(),0,0.3533501896333755,0.7818181818181819,0.4867218110579017,715.0
+2,accuracy,Naive Bayes,True,PowerTransformer(),0,0.7066434436426972,0.7066434436426972,0.7066434436426972,0.7066434436426972
+3,macro avg,Naive Bayes,True,PowerTransformer(),0,0.6446685293673649,0.73609674224081,0.6406784460271219,4019.0
+4,weighted avg,Naive Bayes,True,PowerTransformer(),0,0.8323329189098625,0.7066434436426972,0.7398557856477517,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),14,0.9747774480712166,0.7953995157384988,0.8759999999999999,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),14,0.4890400604686319,0.9048951048951048,0.6349362119725221,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),14,0.81487932321473,0.81487932321473,0.81487932321473,0.81487932321473
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),14,0.7319087542699243,0.8501473103168018,0.755468105986261,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),14,0.8883623616975296,0.81487932321473,0.8331135584872736,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),13,0.981675392670157,0.7944915254237288,0.8782201405152226,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),13,0.4951672862453531,0.9314685314685316,0.6466019417475728,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),13,0.8188604130380692,0.8188604130380692,0.8188604130380692,0.8188604130380692
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),13,0.7384213394577551,0.8629800284461302,0.7624110411313977,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),13,0.8951231916017981,0.8188604130380692,0.8370141161014705,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),13,0.9783867232728676,0.7672518159806295,0.8600508905852418,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),13,0.461484593837535,0.9216783216783216,0.6150256649556696,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),13,0.7947250559840756,0.7947250559840756,0.7947250559840756,0.7947250559840756
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),13,0.7199356585552013,0.8444650688294756,0.7375382777704557,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),13,0.8864272750155243,0.7947250559840756,0.8164596897081221,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),11,0.9836626139817628,0.7835956416464891,0.8723045822102425,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),11,0.4844989185291997,0.9398601398601398,0.6393910561370123,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),11,0.8113958696193083,0.8113958696193083,0.8113958696193083,0.8113958696193083
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),11,0.7340807662554814,0.8617278907533145,0.7558478191736274,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),11,0.8948589209614636,0.8113958696193083,0.8308681126550398,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),12,0.9809146561037092,0.8244552058111381,0.8959052787370498,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),12,0.533011272141707,0.925874125874126,0.676545733265202,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),12,0.8424981338641453,0.8424981338641453,0.8424981338641453,0.8424981338641453
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),12,0.756962964122708,0.875164665842632,0.7862255060011258,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),12,0.9012304263120118,0.8424981338641453,0.8568801294431032,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),5,0.9936686598663385,0.8550242130750605,0.919147551651212,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),5,0.592687074829932,0.9748251748251748,0.7371760973030143,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),5,0.876337397362528,0.876337397362528,0.876337397362528,0.876337397362528
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),5,0.7931778673481351,0.9149246939501176,0.8281618244771131,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),5,0.9223320504358754,0.876337397362528,0.8867739288945655,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",22,0.978689818468824,0.7506053268765133,0.8496060294621446,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",22,0.4451178451178451,0.9244755244755244,0.6009090909090908,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",22,0.7815376959442647,0.7815376959442647,0.7815376959442647,0.7815376959442647
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",22,0.7119038317933346,0.8375404256760188,0.7252575601856177,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",22,0.8837647224384806,0.7815376959442647,0.8053616126755228,4019.0
+0,Active,Logistic Regression,False,MinMaxScaler(),0,0.9506398537477148,0.7869249394673123,0.8610697135287299,3304.0
+1,Inactive,Logistic Regression,False,MinMaxScaler(),0,0.4517133956386293,0.8111888111888111,0.5802901450725362,715.0
 2,accuracy,Logistic Regression,False,MinMaxScaler(),0,0.7912416023886539,0.7912416023886539,0.7912416023886539,0.7912416023886539
-3,macro avg,Logistic Regression,False,MinMaxScaler(),0,0.7009743122644161,0.7985089063478894,0.7204927570133548,4019.0
-4,weighted avg,Logistic Regression,False,MinMaxScaler(),0,0.8615942532483691,0.7912416023886539,0.8110806703054663,4019.0
-0,Active,Logistic Regression,False,StandardScaler(),0,0.9494036863028552,0.7950968523002422,0.8654257947619832,3304.0
-1,Inactive,Logistic Regression,False,StandardScaler(),0,0.4592651757188498,0.8041958041958042,0.5846466700559226,715.0
-2,accuracy,Logistic Regression,False,StandardScaler(),0,0.7967156008957452,0.7967156008957452,0.7967156008957452,0.7967156008957452
-3,macro avg,Logistic Regression,False,StandardScaler(),0,0.7043344310108525,0.7996463282480232,0.725036232408953,4019.0
-4,weighted avg,Logistic Regression,False,StandardScaler(),0,0.8622056183586989,0.7967156008957452,0.8154737982044233,4019.0
-0,Active,Decision Tree,True,StandardScaler(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Decision Tree,True,StandardScaler(),0,1.0,1.0,1.0,715.0
-2,accuracy,Decision Tree,True,StandardScaler(),0,1.0,1.0,1.0,1.0
-3,macro avg,Decision Tree,True,StandardScaler(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Decision Tree,True,StandardScaler(),0,1.0,1.0,1.0,4019.0
-0,Active,Logistic Regression,False,MaxAbsScaler(),0,0.9486338797814208,0.788135593220339,0.8609687551661431,3304.0
-1,Inactive,Logistic Regression,False,MaxAbsScaler(),0,0.4505494505494505,0.8027972027972028,0.5771744595274008,715.0
-2,accuracy,Logistic Regression,False,MaxAbsScaler(),0,0.7907439661607365,0.7907439661607365,0.7907439661607365,0.7907439661607365
-3,macro avg,Logistic Regression,False,MaxAbsScaler(),0,0.6995916651654357,0.7954663980087708,0.719071607346772,4019.0
-4,weighted avg,Logistic Regression,False,MaxAbsScaler(),0,0.8600221935657306,0.7907439661607365,0.8104803447700991,4019.0
-0,Active,Random Forests,True,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,3304.0
-1,Inactive,Random Forests,True,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,715.0
-2,accuracy,Random Forests,True,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,1.0
-3,macro avg,Random Forests,True,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,4019.0
-4,weighted avg,Random Forests,True,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,4019.0
-0,Active,Support Vector Machines (SVM),False,MinMaxScaler(),0,0.9784098697738176,0.8641041162227603,0.9177113468338156,3304.0
-1,Inactive,Support Vector Machines (SVM),False,MinMaxScaler(),0,0.592188919164396,0.911888111888112,0.7180616740088107,715.0
-2,accuracy,Support Vector Machines (SVM),False,MinMaxScaler(),0,0.8726051256531475,0.8726051256531475,0.8726051256531475,0.8726051256531475
-3,macro avg,Support Vector Machines (SVM),False,MinMaxScaler(),0,0.7852993944691069,0.8879961140554361,0.8178865104213131,4019.0
-4,weighted avg,Support Vector Machines (SVM),False,MinMaxScaler(),0,0.9096992502949084,0.8726051256531475,0.8821926814767918,4019.0
-0,Active,Naive Bayes,False,MinMaxScaler(),0,0.9361088211046992,0.6873486682808717,0.7926701570680628,3304.0
-1,Inactive,Naive Bayes,False,MinMaxScaler(),0,0.3515379786566227,0.7832167832167832,0.4852686308492202,715.0
-2,accuracy,Naive Bayes,False,MinMaxScaler(),0,0.7044040806170689,0.7044040806170689,0.7044040806170689,0.7044040806170689
-3,macro avg,Naive Bayes,False,MinMaxScaler(),0,0.6438233998806608,0.7352827257488275,0.6389693939586415,4019.0
-4,weighted avg,Naive Bayes,False,MinMaxScaler(),0,0.8321107737420779,0.7044040806170689,0.7379819034610778,4019.0
-0,Active,Support Vector Machines (SVM),True,"RobustScaler(quantile_range=(25, 75))",0,0.9772881355932204,0.8725786924939467,0.921969939238887,3304.0
-1,Inactive,Support Vector Machines (SVM),True,"RobustScaler(quantile_range=(25, 75))",0,0.6061739943872778,0.9062937062937064,0.726457399103139,715.0
-2,accuracy,Support Vector Machines (SVM),True,"RobustScaler(quantile_range=(25, 75))",0,0.8785767603881562,0.8785767603881562,0.8785767603881562,0.8785767603881562
-3,macro avg,Support Vector Machines (SVM),True,"RobustScaler(quantile_range=(25, 75))",0,0.7917310649902491,0.8894361993938265,0.824213669171013,4019.0
-4,weighted avg,Support Vector Machines (SVM),True,"RobustScaler(quantile_range=(25, 75))",0,0.9112650923082616,0.8785767603881562,0.8871872902722139,4019.0
-0,Active,Logistic Regression,False,"RobustScaler(quantile_range=(25, 75))",0,0.9498352251922372,0.7851089588377724,0.859652029826015,3304.0
-1,Inactive,Logistic Regression,False,"RobustScaler(quantile_range=(25, 75))",0,0.4487577639751552,0.8083916083916084,0.5771342985521717,715.0
-2,accuracy,Logistic Regression,False,"RobustScaler(quantile_range=(25, 75))",0,0.7892510574769843,0.7892510574769843,0.7892510574769843,0.7892510574769843
-3,macro avg,Logistic Regression,False,"RobustScaler(quantile_range=(25, 75))",0,0.6992964945836962,0.7967502836146905,0.7183931641890933,4019.0
-4,weighted avg,Logistic Regression,False,"RobustScaler(quantile_range=(25, 75))",0,0.8606910637664563,0.7892510574769843,0.80939072655137,4019.0
-0,Active,Logistic Regression,True,MaxAbsScaler(),0,0.9487086213168424,0.7893462469733656,0.8617214604328433,3304.0
-1,Inactive,Logistic Regression,True,MaxAbsScaler(),0,0.4519685039370079,0.8027972027972028,0.5783375314861462,715.0
-2,accuracy,Logistic Regression,True,MaxAbsScaler(),0,0.7917392386165713,0.7917392386165713,0.7917392386165713,0.7917392386165713
-3,macro avg,Logistic Regression,True,MaxAbsScaler(),0,0.7003385626269252,0.7960717248852842,0.7200294959594947,4019.0
-4,weighted avg,Logistic Regression,True,MaxAbsScaler(),0,0.8603360948359812,0.7917392386165713,0.8113060563032367,4019.0
-0,Active,Random Forests,False,MinMaxScaler(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Random Forests,False,MinMaxScaler(),0,1.0,1.0,1.0,715.0
-2,accuracy,Random Forests,False,MinMaxScaler(),0,1.0,1.0,1.0,1.0
-3,macro avg,Random Forests,False,MinMaxScaler(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Random Forests,False,MinMaxScaler(),0,1.0,1.0,1.0,4019.0
-0,Active,Logistic Regression,True,PowerTransformer(),0,0.9508617528419508,0.7848062953995157,0.8598905654120378,3304.0
-1,Inactive,Logistic Regression,True,PowerTransformer(),0,0.4496904024767801,0.8125874125874126,0.5789735924265073,715.0
-2,accuracy,Logistic Regression,True,PowerTransformer(),0,0.7897486937049017,0.7897486937049017,0.7897486937049017,0.7897486937049017
-3,macro avg,Logistic Regression,True,PowerTransformer(),0,0.7002760776593655,0.7986968539934642,0.7194320789192725,4019.0
-4,weighted avg,Logistic Regression,True,PowerTransformer(),0,0.8617008880718348,0.7897486937049017,0.8099140449630071,4019.0
-0,Active,Support Vector Machines (SVM),False,"RobustScaler(quantile_range=(25, 75))",0,0.9811708319068811,0.8674334140435835,0.9208032128514057,3304.0
-1,Inactive,Support Vector Machines (SVM),False,"RobustScaler(quantile_range=(25, 75))",0,0.6010928961748634,0.9230769230769232,0.7280750137892995,715.0
-2,accuracy,Support Vector Machines (SVM),False,"RobustScaler(quantile_range=(25, 75))",0,0.8773326698183628,0.8773326698183628,0.8773326698183628,0.8773326698183628
-3,macro avg,Support Vector Machines (SVM),False,"RobustScaler(quantile_range=(25, 75))",0,0.7911318640408723,0.8952551685602533,0.8244391133203526,4019.0
-4,weighted avg,Support Vector Machines (SVM),False,"RobustScaler(quantile_range=(25, 75))",0,0.9135530851916802,0.8773326698183628,0.8865159119483438,4019.0
-0,Active,Decision Tree,False,MinMaxScaler(),0,1.0,1.0,1.0,3304.0
-1,Inactive,Decision Tree,False,MinMaxScaler(),0,1.0,1.0,1.0,715.0
-2,accuracy,Decision Tree,False,MinMaxScaler(),0,1.0,1.0,1.0,1.0
-3,macro avg,Decision Tree,False,MinMaxScaler(),0,1.0,1.0,1.0,4019.0
-4,weighted avg,Decision Tree,False,MinMaxScaler(),0,1.0,1.0,1.0,4019.0
-0,Active,Decision Tree,False,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,3304.0
-1,Inactive,Decision Tree,False,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,715.0
-2,accuracy,Decision Tree,False,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,1.0
-3,macro avg,Decision Tree,False,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,4019.0
-4,weighted avg,Decision Tree,False,"RobustScaler(quantile_range=(25, 75))",0,1.0,1.0,1.0,4019.0
+3,macro avg,Logistic Regression,False,MinMaxScaler(),0,0.701176624693172,0.7990568753280618,0.720679929300633,4019.0
+4,weighted avg,Logistic Regression,False,MinMaxScaler(),0,0.8618783664254963,0.7912416023886539,0.811117638025824,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),7,0.9916515426497278,0.8268765133171913,0.9017989767288332,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),7,0.5474683544303798,0.967832167832168,0.6993431025770591,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),7,0.8519532221945758,0.8519532221945758,0.8519532221945758,0.8519532221945758
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),7,0.7695599485400537,0.8973543405746796,0.8005710396529462,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),7,0.9126291541011252,0.8519532221945758,0.8657810742609261,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",15,0.9870287798946088,0.7369854721549637,0.8438745451394906,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",15,0.4400773195876288,0.9552447552447552,0.6025584472871637,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",15,0.7758148793232147,0.7758148793232147,0.7758148793232147,0.7758148793232147
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",15,0.7135530497411189,0.8461151136998595,0.7232164962133272,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",15,0.8897234068865245,0.7758148793232147,0.8009432164596165,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),7,0.990815576781778,0.8162832929782082,0.8951211417192168,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),7,0.5319969159599075,0.965034965034965,0.6858846918489067,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),7,0.842746951978104,0.842746951978104,0.842746951978104,0.842746951978104
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),7,0.7614062463708429,0.8906591290065866,0.7905029167840617,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),7,0.90918946518993,0.842746951978104,0.8578969412570938,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),21,0.9703984819734346,0.773910411622276,0.8610877252062638,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),21,0.4602601156069364,0.8909090909090909,0.606955693187232,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),21,0.7947250559840756,0.7947250559840756,0.7947250559840756,0.7947250559840756
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),21,0.7153292987901855,0.8324097512656834,0.7340217091967478,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),21,0.8796423406566777,0.7947250559840756,0.8158763783802851,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",8,0.9854227405247812,0.8184019370460048,0.8941798941798941,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",8,0.5294117647058824,0.944055944055944,0.6783919597989949,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",8,0.8407564070664344,0.8407564070664344,0.8407564070664344,0.8407564070664344
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",8,0.7574172526153318,0.8812289405509744,0.7862859269894444,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",8,0.9042961299971594,0.8407564070664344,0.8557901521837897,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),7,0.9912087912087912,0.8190072639225182,0.8969174676831291,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),7,0.5360744763382467,0.9664335664335664,0.689620758483034,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),7,0.8452351331176909,0.8452351331176909,0.8452351331176909,0.8452351331176909
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),7,0.763641633773519,0.8927204151780423,0.7932691130830816,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),7,0.910238143004651,0.8452351331176909,0.8600383566908256,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",19,0.985519238725693,0.7209443099273608,0.8327215521761929,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",19,0.4244694132334581,0.951048951048951,0.586965904186448,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",19,0.7618810649415277,0.7618810649415277,0.7618810649415277,0.7618810649415277
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",19,0.7049943259795756,0.8359966304881559,0.7098437281813205,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",19,0.8857056967433721,0.7618810649415277,0.7890004055445264,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),14,0.9749719835636907,0.7899515738498789,0.8727637518809565,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),14,0.4828614008941878,0.9062937062937064,0.6300437530384054,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),14,0.8106494152774322,0.8106494152774322,0.8106494152774322,0.8106494152774322
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),14,0.7289166922289393,0.8481226400717926,0.7514037524596809,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),14,0.887423074230848,0.8106494152774322,0.8295826622635332,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),17,0.9713855421686748,0.7808716707021792,0.8657718120805369,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),17,0.4688187820983125,0.8937062937062937,0.6150144369586141,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),17,0.800945508833043,0.800945508833043,0.800945508833043,0.800945508833043
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),17,0.7201021621334937,0.8372889822042364,0.7403931245195755,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),17,0.881976427102661,0.800945508833043,0.8211608334261017,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),4,0.9948453608247424,0.9346246973365616,0.9637952559300872,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),4,0.7639344262295082,0.9776223776223776,0.8576687116564418,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),4,0.9422741975615824,0.9422741975615824,0.9422741975615824,0.9422741975615824
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),4,0.8793898935271253,0.9561235374794697,0.9107319837932646,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),4,0.9537651622092678,0.9422741975615824,0.9449148182202948,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),20,0.9609229624116116,0.7814769975786925,0.8619596060757804,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),20,0.4579579579579579,0.8531468531468531,0.5959941377625794,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),20,0.7942274197561583,0.7942274197561583,0.7942274197561583,0.7942274197561583
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),20,0.7094404601847847,0.8173119253627728,0.7289768719191798,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),20,0.8714429976979109,0.7942274197561583,0.8146430323400404,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),5,0.9971919971919972,0.8598668280871671,0.923451974646514,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),5,0.6042735042735042,0.9888111888111888,0.750132625994695,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),5,0.8828066683254541,0.8828066683254541,0.8828066683254541,0.8828066683254541
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),5,0.8007327507327506,0.924339008449178,0.8367923003206045,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),5,0.9272898517735542,0.8828066683254541,0.8926176043339858,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),13,0.98299188248937,0.7696731234866828,0.8633508742149041,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),13,0.4685754189944134,0.9384615384615383,0.6250582207731719,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),13,0.7997014182632496,0.7997014182632496,0.7997014182632496,0.7997014182632496
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),13,0.7257836507418917,0.8540673309741107,0.744204547494038,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),13,0.8914746465105459,0.7997014182632496,0.8209574312662008,4019.0
+0,Active,Support Vector Machines (SVM),True,StandardScaler(),0,0.9895934959349594,0.921004842615012,0.9540680357422796,3304.0
+1,Inactive,Support Vector Machines (SVM),True,StandardScaler(),0,0.7235169491525424,0.9552447552447552,0.8233875828812539,715.0
+2,accuracy,Support Vector Machines (SVM),True,StandardScaler(),0,0.927096292610102,0.927096292610102,0.927096292610102,0.927096292610102
+3,macro avg,Support Vector Machines (SVM),True,StandardScaler(),0,0.8565552225437509,0.9381247989298838,0.8887278093117668,4019.0
+4,weighted avg,Support Vector Machines (SVM),True,StandardScaler(),0,0.942257160789543,0.927096292610102,0.9308193361165932,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),12,0.9792576419213974,0.8144673123486683,0.8892927957699933,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),12,0.5177025963808025,0.9202797202797204,0.662638469284995,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),12,0.8332918636476736,0.8332918636476736,0.8332918636476736,0.8332918636476736
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),12,0.7484801191510999,0.8673735163141942,0.7759656325274942,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),12,0.8971447139389328,0.8332918636476736,0.8489698688138416,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),12,0.9800295857988166,0.8020581113801453,0.8821571238348868,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),12,0.5026615969581749,0.9244755244755244,0.6512315270935961,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),12,0.8238367753172431,0.8238367753172431,0.8238367753172431,0.8238367753172431
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),12,0.7413455913784958,0.8632668179278349,0.7666943254642414,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),12,0.8951034569057937,0.8238367753172431,0.8410743167510294,4019.0
+0,Active,Support Vector Machines (SVM),True,MaxAbsScaler(),0,0.9895901106050748,0.9207021791767556,0.9539040451552212,3304.0
+1,Inactive,Support Vector Machines (SVM),True,MaxAbsScaler(),0,0.7227513227513227,0.9552447552447552,0.8228915662650602,715.0
+2,accuracy,Support Vector Machines (SVM),True,MaxAbsScaler(),0,0.9268474744961434,0.9268474744961434,0.9268474744961434,0.9268474744961434
+3,macro avg,Support Vector Machines (SVM),True,MaxAbsScaler(),0,0.8561707166781988,0.9379734672107554,0.8883978057101407,4019.0
+4,weighted avg,Support Vector Machines (SVM),True,MaxAbsScaler(),0,0.9421181689988462,0.9268474744961434,0.9305962764549311,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),7,0.9872634643377002,0.8211259079903148,0.8965631196298744,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),7,0.5350118017309206,0.951048951048951,0.6847935548841895,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),7,0.8442398606618562,0.8442398606618562,0.8442398606618562,0.8442398606618562
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),7,0.7611376330343104,0.8860874295196329,0.790678337257032,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),7,0.9068056542446802,0.8442398606618562,0.8588882654887536,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),22,0.9644327967053538,0.7796610169491526,0.8622594142259413,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),22,0.4599406528189911,0.8671328671328671,0.6010664081434803,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),22,0.795222692211993,0.795222692211993,0.795222692211993,0.795222692211993
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),22,0.7121867247621725,0.8233969420410099,0.7316629111847108,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),22,0.8746811463249732,0.795222692211993,0.8157918851518037,4019.0
+0,Active,Decision Tree,True,MinMaxScaler(),0,0.9721577726218096,0.7608958837772397,0.8536502546689304,3304.0
+1,Inactive,Decision Tree,True,MinMaxScaler(),0,0.4487090020935101,0.8993006993006993,0.5986964618249535,715.0
+2,accuracy,Decision Tree,True,MinMaxScaler(),0,0.7855187857676039,0.7855187857676039,0.7855187857676039,0.7855187857676039
+3,macro avg,Decision Tree,True,MinMaxScaler(),0,0.7104333873576599,0.8300982915389695,0.726173358246942,4019.0
+4,weighted avg,Decision Tree,True,MinMaxScaler(),0,0.8790336444984621,0.7855187857676039,0.8082927125232615,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),18,0.9667049368541906,0.7645278450363197,0.8538110528984282,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),18,0.4466571834992888,0.8783216783216783,0.5921735030645923,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),18,0.7847723314257278,0.7847723314257278,0.7847723314257278,0.7847723314257278
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),18,0.7066810601767397,0.8214247616789989,0.7229922779815102,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),18,0.8741858665260605,0.7847723314257278,0.8072644372897712,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",6,0.9897743300423132,0.8495762711864406,0.9143322475570032,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",6,0.5798816568047337,0.9594405594405594,0.7228661749209694,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",6,0.8691216720577258,0.8691216720577258,0.8691216720577258,0.8691216720577258
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",6,0.7848279934235234,0.9045084153135,0.8185992112389864,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",6,0.9168523938977824,0.8691216720577258,0.880269485194534,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),9,0.9853713428357088,0.7950968523002422,0.8800670016750419,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),9,0.499630450849963,0.9454545454545454,0.6537717601547389,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),9,0.8218462304055735,0.8218462304055735,0.8218462304055735,0.8218462304055735
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),9,0.7425008968428359,0.8702756988773939,0.7669193809148904,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),9,0.8989556330149058,0.8218462304055735,0.8398079577121116,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),9,0.9839372431826672,0.7972154963680388,0.880789165691356,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),9,0.5007451564828614,0.9398601398601398,0.6533787068546427,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),9,0.8225926847474496,0.8225926847474496,0.8225926847474496,0.8225926847474496
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),9,0.7423411998327643,0.8685378181140893,0.7670839362729993,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),9,0.8979749784425922,0.8225926847474496,0.8403317190458596,4019.0
+0,Active,Decision Tree,False,StandardScaler(),0,0.943317230273752,0.886501210653753,0.9140271493212668,3304.0
+1,Inactive,Decision Tree,False,StandardScaler(),0,0.5897155361050328,0.7538461538461538,0.6617556783302639,715.0
+2,accuracy,Decision Tree,False,StandardScaler(),0,0.8629012192087584,0.8629012192087584,0.8629012192087584,0.8629012192087584
+3,macro avg,Decision Tree,False,StandardScaler(),0,0.7665163831893924,0.8201736822499535,0.7878914138257654,4019.0
+4,weighted avg,Decision Tree,False,StandardScaler(),0,0.8804097380292549,0.8629012192087584,0.8691468055147064,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),10,0.9768683274021353,0.8308111380145279,0.8979391560353287,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),10,0.5376344086021505,0.9090909090909092,0.6756756756756755,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),10,0.8447374968897736,0.8447374968897736,0.8447374968897736,0.8447374968897736
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),10,0.7572513680021429,0.8699510235527185,0.7868074158555021,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),10,0.8987264383894482,0.8447374968897736,0.8583973823460647,4019.0
+0,Active,Random Forests,True,MinMaxScaler(),0,0.9563365282215124,0.8153753026634383,0.8802483254370201,3304.0
+1,Inactive,Random Forests,True,MinMaxScaler(),0,0.4925124792013311,0.827972027972028,0.6176317162232655,715.0
+2,accuracy,Random Forests,True,MinMaxScaler(),0,0.8176163224682756,0.8176163224682756,0.8176163224682756,0.8176163224682756
+3,macro avg,Random Forests,True,MinMaxScaler(),0,0.7244245037114216,0.8216736653177331,0.7489400208301429,4019.0
+4,weighted avg,Random Forests,True,MinMaxScaler(),0,0.8738199332851029,0.8176163224682756,0.8335275303168822,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),22,0.9618518518518518,0.7860169491525424,0.8650899400399733,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),22,0.4639878695981804,0.855944055944056,0.6017699115044248,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),22,0.7984573276934561,0.7984573276934561,0.7984573276934561,0.7984573276934561
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),22,0.7129198607250161,0.8209805025482992,0.733429925772199,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),22,0.87327938424514,0.7984573276934561,0.8182440031395212,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),11,0.980421686746988,0.788135593220339,0.8738255033557046,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),11,0.4864269992663242,0.9272727272727272,0.6381135707410973,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),11,0.8128887783030605,0.8128887783030605,0.8128887783030605,0.8128887783030605
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),11,0.733424343006656,0.8577041602465332,0.755969537048401,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),11,0.8925375858391317,0.8128887783030605,0.8318911834205357,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),13,0.983209683717298,0.7621065375302664,0.8586530264279625,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),13,0.4609053497942387,0.9398601398601398,0.6184997699033593,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),13,0.7937297835282409,0.7937297835282409,0.7937297835282409,0.7937297835282409
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),13,0.7220575167557683,0.850983338695203,0.7385763981656609,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),13,0.8902891565326779,0.7937297835282409,0.8159285729780765,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),18,0.9664577957980096,0.7935835351089588,0.8715306631211568,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),18,0.4777947932618683,0.8727272727272727,0.6175160811479465,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),18,0.8076635979099278,0.8076635979099278,0.8076635979099278,0.8076635979099278
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),18,0.7221262945299389,0.8331554039181157,0.7445233721345517,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),18,0.8795222280415176,0.8076635979099278,0.8263402112398814,4019.0
+0,Active,Decision Tree,True,PowerTransformer(),0,0.948885976408912,0.8765133171912833,0.9112649465072372,3304.0
+1,Inactive,Decision Tree,True,PowerTransformer(),0,0.578076525336091,0.7818181818181819,0.6646848989298455,715.0
+2,accuracy,Decision Tree,True,PowerTransformer(),0,0.8596665837272953,0.8596665837272953,0.8596665837272953,0.8596665837272953
+3,macro avg,Decision Tree,True,PowerTransformer(),0,0.7634812508725015,0.8291657495047327,0.7879749227185414,4019.0
+4,weighted avg,Decision Tree,True,PowerTransformer(),0,0.8829171390073031,0.8596665837272953,0.8673971351069301,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),11,0.984333205961024,0.7796610169491526,0.8701232899847998,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),11,0.4807417974322396,0.9426573426573428,0.6367501180916391,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),11,0.8086588703657627,0.8086588703657627,0.8086588703657627,0.8086588703657627
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),11,0.7325375016966318,0.8611591798032476,0.7534367040382195,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),11,0.8947418008607302,0.8086588703657627,0.8286050471623041,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),7,0.989739831440088,0.8174939467312349,0.8954085861097298,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),7,0.5325581395348837,0.9608391608391608,0.6852867830423941,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),7,0.8429957700920627,0.8429957700920627,0.8429957700920627,0.8429957700920627
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),7,0.7611489854874858,0.8891665537851978,0.790347684576062,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),7,0.9084049447239344,0.8429957700920627,0.8580268769300471,4019.0
+0,Active,Logistic Regression,False,StandardScaler(),0,0.9492017416545718,0.7917675544794189,0.8633663366336634,3304.0
+1,Inactive,Logistic Regression,False,StandardScaler(),0,0.4552652414885194,0.8041958041958042,0.5813953488372092,715.0
+2,accuracy,Logistic Regression,False,StandardScaler(),0,0.7939786016421996,0.7939786016421996,0.7939786016421996,0.7939786016421996
+3,macro avg,Logistic Regression,False,StandardScaler(),0,0.7022334915715456,0.7979816793376115,0.7223808427354363,4019.0
+4,weighted avg,Logistic Regression,False,StandardScaler(),0,0.8613279925580982,0.7939786016421996,0.8132023017308355,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),13,0.977786288778246,0.7726997578692494,0.863229078613694,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),13,0.4666193181818182,0.9188811188811188,0.6189354686764013,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),13,0.7987061458074147,0.7987061458074147,0.7987061458074147,0.7987061458074147
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),13,0.7222028034800321,0.8457904383751842,0.7410822736450476,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),13,0.8868471536758707,0.7987061458074147,0.8197680357908117,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),15,0.9714397496087636,0.7515133171912833,0.8474402730375427,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),15,0.4388243335611757,0.8979020979020979,0.5895316804407713,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),15,0.7775566061209256,0.7775566061209256,0.7775566061209256,0.7775566061209256
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),15,0.7051320415849697,0.8247077075466906,0.7184859767391569,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),15,0.8766848298590684,0.7775566061209256,0.8015570573852183,4019.0
+0,Active,Support Vector Machines (SVM),False,MaxAbsScaler(),0,0.9905782975958416,0.922820823244552,0.9554998433093074,3304.0
+1,Inactive,Support Vector Machines (SVM),False,MaxAbsScaler(),0,0.7290116896918172,0.9594405594405594,0.8285024154589372,715.0
+2,accuracy,Support Vector Machines (SVM),False,MaxAbsScaler(),0,0.9293356556357304,0.9293356556357304,0.9293356556357304,0.9293356556357304
+3,macro avg,Support Vector Machines (SVM),False,MaxAbsScaler(),0,0.8597949936438294,0.9411306913425556,0.8920011293841223,4019.0
+4,weighted avg,Support Vector Machines (SVM),False,MaxAbsScaler(),0,0.9440443029077656,0.9293356556357304,0.932906372069443,4019.0
+0,Active,Naive Bayes,False,"RobustScaler(quantile_range=(25, 75))",0,0.9333333333333332,0.7033898305084746,0.802209181912323,3304.0
+1,Inactive,Naive Bayes,False,"RobustScaler(quantile_range=(25, 75))",0,0.3590582079790713,0.7678321678321678,0.4893048128342246,715.0
+2,accuracy,Naive Bayes,False,"RobustScaler(quantile_range=(25, 75))",0,0.7148544414033342,0.7148544414033342,0.7148544414033342,0.7148544414033342
+3,macro avg,Naive Bayes,False,"RobustScaler(quantile_range=(25, 75))",0,0.6461957706562023,0.7356109991703212,0.6457569973732739,4019.0
+4,weighted avg,Naive Bayes,False,"RobustScaler(quantile_range=(25, 75))",0,0.8311669450207438,0.7148544414033342,0.7465419453134576,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),19,0.9708624708624708,0.7563559322033898,0.8502892140183735,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),19,0.4429065743944637,0.8951048951048951,0.5925925925925926,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),19,0.7810400597163474,0.7810400597163474,0.7810400597163474,0.7810400597163474
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),19,0.7068845226284672,0.8257304136541425,0.721440903305483,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),19,0.8769365027175032,0.7810400597163474,0.8044437090869395,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",11,0.9848484848484848,0.7475786924939467,0.8499655884377151,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",11,0.4480476505625413,0.9468531468531468,0.6082659478885893,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",11,0.7830306046280169,0.7830306046280169,0.7830306046280169,0.7830306046280169
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",11,0.7164480677055132,0.8472159196735467,0.7291157681631522,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",11,0.8893489584701695,0.7830306046280169,0.8069660256129764,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),13,0.9841688654353562,0.7902542372881356,0.8766157461809636,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),13,0.4926793557833089,0.9412587412587412,0.6468044209514657,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),13,0.8171186862403583,0.8171186862403583,0.8171186862403583,0.8171186862403583
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),13,0.7384241106093326,0.8657564892734384,0.7617100835662147,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),13,0.8967304480675498,0.8171186862403583,0.8357311735163477,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),14,0.975877192982456,0.8081113801452785,0.8841059602649007,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),14,0.5058456742010912,0.9076923076923076,0.6496496496496496,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),14,0.8258273202289127,0.8258273202289127,0.8258273202289127,0.8258273202289127
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),14,0.7408614335917736,0.8579018439187931,0.7668778049572751,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),14,0.8922562584393668,0.8258273202289127,0.842395021700605,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),6,0.9860116001364722,0.8746973365617433,0.9270248596631916,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),6,0.6194852941176471,0.9426573426573428,0.747642817526345,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),6,0.8867877581487932,0.8867877581487932,0.8867877581487932,0.8867877581487932
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),6,0.8027484471270596,0.908677339609543,0.8373338385947684,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),6,0.920804755447878,0.8867877581487932,0.8951119061603687,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",16,0.9832684824902724,0.7648305084745762,0.86040177051413,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",16,0.463768115942029,0.9398601398601398,0.6210720887245841,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",16,0.7959691465538691,0.7959691465538691,0.7959691465538691,0.7959691465538691
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",16,0.7235182992161506,0.852345324167358,0.7407369296193571,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",16,0.890846794985422,0.7959691465538691,0.8178238350875251,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),20,0.9630172098132552,0.7960048426150121,0.871582435791218,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),20,0.4767080745341615,0.8587412587412587,0.6130803794308537,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),20,0.8071659616820105,0.8071659616820105,0.8071659616820105,0.8071659616820105
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),20,0.7198626421737083,0.8273730506781354,0.7423314076110359,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),20,0.8765004066969199,0.8071659616820105,0.8255936399968261,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),14,0.9739099356683344,0.8247578692493946,0.8931497869550966,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),14,0.5257985257985258,0.8979020979020979,0.6632231404958677,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),14,0.83777058969893,0.83777058969893,0.83777058969893,0.83777058969893
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),14,0.7498542307334302,0.8613299835757462,0.7781864637254822,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),14,0.8941886970376022,0.83777058969893,0.8522446980727009,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),16,0.9721280602636536,0.7811743341404358,0.8662527269676119,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),16,0.469941348973607,0.8965034965034965,0.6166426166426167,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),16,0.8016919631749191,0.8016919631749191,0.8016919631749191,0.8016919631749191
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),16,0.7210347046186303,0.8388389153219662,0.7414476718051143,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),16,0.8827865577574622,0.8016919631749191,0.8218458524012094,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),10,0.9834413246940245,0.8268765133171913,0.8983886879316014,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),10,0.5390813859790492,0.9356643356643356,0.6840490797546012,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),10,0.8462304055735258,0.8462304055735258,0.8462304055735258,0.8462304055735258
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),10,0.7612613553365368,0.8812704244907634,0.7912188838431014,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),10,0.9043874913570732,0.8462304055735258,0.8602566103385298,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",7,0.9889397406559878,0.7848062953995157,0.8751265609179885,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",7,0.4910522548317824,0.9594405594405594,0.6496212121212122,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",7,0.8158745956705649,0.8158745956705649,0.8158745956705649,0.8158745956705649
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",7,0.739995997743885,0.8721234274200376,0.7623738865196004,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",7,0.9003630916477005,0.8158745956705649,0.835008042781712,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),9,0.9866463181991606,0.7826876513317191,0.8729113924050633,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),9,0.4864091559370529,0.951048951048951,0.6436346426881212,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),9,0.8126399601891018,0.8126399601891018,0.8126399601891018,0.8126399601891018
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),9,0.7365277370681067,0.8668683011903351,0.7582730175465923,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),9,0.8976516501181935,0.8126399601891018,0.8321219233710715,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),16,0.9707581227436825,0.8138619854721549,0.8854132367467895,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),16,0.5076060848678943,0.8867132867132868,0.6456211812627292,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),16,0.8268225926847474,0.8268225926847474,0.8268225926847474,0.8268225926847474
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),16,0.7391821038057883,0.8502876360927208,0.7655172090047593,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),16,0.8883610819173106,0.8268225926847474,0.8427530427504961,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),12,0.9740591888929484,0.8069007263922519,0.8826353252772721,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),12,0.5023400936037441,0.9006993006993007,0.6449674511767651,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),12,0.8235879572032844,0.8235879572032844,0.8235879572032844,0.8235879572032844
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),12,0.7381996412483462,0.8538000135457763,0.7638013882270186,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),12,0.8901380261331124,0.8235879572032844,0.8403530336669555,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),6,0.9874320652173914,0.8798426150121066,0.930537772087068,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),6,0.6306976744186047,0.9482517482517484,0.7575418994413408,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),6,0.8920129385419259,0.8920129385419259,0.8920129385419259,0.8920129385419259
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),6,0.8090648698179981,0.9140471816319274,0.8440398357642044,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),6,0.923967250730919,0.8920129385419259,0.8997609497577087,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),18,0.9664723032069972,0.8026634382566586,0.876984126984127,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),18,0.4886274509803922,0.8713286713286713,0.6261306532663317,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),18,0.81487932321473,0.81487932321473,0.81487932321473,0.81487932321473
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),18,0.7275498770936946,0.8369960547926649,0.7515573901252293,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),18,0.8814613379564316,0.81487932321473,0.8323560519136558,4019.0
+0,Active,Logistic Regression,False,PowerTransformer(),0,0.9493440233236152,0.7884382566585957,0.861441798941799,3304.0
+1,Inactive,Logistic Regression,False,PowerTransformer(),0,0.4517647058823529,0.8055944055944056,0.5788944723618091,715.0
+2,accuracy,Logistic Regression,False,PowerTransformer(),0,0.7914904205026125,0.7914904205026125,0.7914904205026125,0.7914904205026125
+3,macro avg,Logistic Regression,False,PowerTransformer(),0,0.700554364602984,0.7970163311265006,0.720168135651804,4019.0
+4,weighted avg,Logistic Regression,False,PowerTransformer(),0,0.860822198996543,0.7914904205026125,0.81117523051565,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),18,0.967926689576174,0.7672518159806295,0.8559851426641905,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),18,0.4507142857142857,0.8825174825174825,0.5966903073286052,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),18,0.7877581487932321,0.7877581487932321,0.7877581487932321,0.7877581487932321
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),18,0.7093204876452299,0.824884649249056,0.7263377249963978,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),18,0.8759120419620288,0.7877581487932321,0.8098553075646773,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),4,0.9919406834300452,0.9312953995157384,0.96066187948798,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),4,0.752453653217012,0.965034965034965,0.8455882352941175,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),4,0.9372978352824084,0.9372978352824084,0.9372978352824084,0.9372978352824084
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),4,0.8721971683235286,0.9481651822753516,0.9031250573910488,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),4,0.949334754939794,0.9372978352824084,0.94018970840099,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),20,0.9594946116685248,0.7814769975786925,0.8613844870725604,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),20,0.4563253012048193,0.8475524475524475,0.593245227606461,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),20,0.7932321473003234,0.7932321473003234,0.7932321473003234,0.7932321473003234
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),20,0.707909956436672,0.81451472256557,0.7273148573395107,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),20,0.8699782999040188,0.7932321473003234,0.8136811851272355,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),22,0.964507866813026,0.7978208232445521,0.8732814311744245,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),22,0.4805598755832037,0.8643356643356643,0.6176911544227887,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),22,0.8096541428215974,0.8096541428215974,0.8096541428215974,0.8096541428215974
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),22,0.7225338711981149,0.8310782437901082,0.7454862927986066,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),22,0.8784111229142146,0.8096541428215974,0.8278106553900454,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),11,0.9868073878627968,0.7923728813559322,0.8789659224441834,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),11,0.4978038067349927,0.951048951048951,0.6535319557904854,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),11,0.82060213983578,0.82060213983578,0.82060213983578,0.82060213983578
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),11,0.7423055972988948,0.8717109162024417,0.7662489391173344,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),11,0.8998112294884798,0.82060213983578,0.8388601035446078,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),20,0.970577140701622,0.7787530266343826,0.8641477749790093,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),20,0.4656432748538012,0.8909090909090909,0.6116178588574172,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),20,0.7987061458074147,0.7987061458074147,0.7987061458074147,0.7987061458074147
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),20,0.7181102077777116,0.8348310587717367,0.7378828169182132,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),20,0.8807469057971204,0.7987061458074147,0.8192214525040309,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),18,0.965230536659108,0.7730024213075061,0.8584873949579833,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),18,0.4537509104151493,0.8713286713286713,0.5967432950191571,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),18,0.7904951480467778,0.7904951480467778,0.7904951480467778,0.7904951480467778
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),18,0.7094907235371287,0.8221655463180887,0.7276153449885703,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),18,0.8742357785689289,0.7904951480467778,0.8119218235580677,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),4,0.995496944355098,0.9367433414043584,0.9652268828941214,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),4,0.7703296703296704,0.9804195804195804,0.8627692307692307,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),4,0.9445135605872108,0.9445135605872108,0.9445135605872108,0.9445135605872108
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),4,0.8829133073423843,0.9585814609119694,0.913998056831676,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),4,0.9554385713946152,0.9445135605872108,0.94699915926404,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),8,0.9856643356643356,0.8532082324455206,0.9146658014276444,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),8,0.5815358067299397,0.9426573426573428,0.7193169690501601,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),8,0.8691216720577258,0.8691216720577258,0.8691216720577258,0.8691216720577258
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),8,0.7836000711971376,0.8979327875514316,0.8169913852389021,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),8,0.9137678693323892,0.8691216720577258,0.8799122768817619,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),3,0.997389885807504,0.9252421307506054,0.9599623174752708,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),3,0.7410901467505241,0.9888111888111888,0.847213900539245,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),3,0.9365513809405324,0.9365513809405324,0.9365513809405324,0.9365513809405324
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),3,0.8692400162790141,0.9570266597808972,0.903588109007258,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),3,0.9517928931661156,0.9365513809405324,0.9399038158307677,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),18,0.9670736219015909,0.7911622276029056,0.8703179623772265,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),18,0.4756838905775076,0.8755244755244755,0.6164451009354998,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),18,0.8061706892261756,0.8061706892261756,0.8061706892261756,0.8061706892261756
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),18,0.7213787562395493,0.8333433515636905,0.7433815316563631,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),18,0.8796529555923797,0.8061706892261756,0.8251527232802286,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),6,0.9897959183673468,0.8807506053268765,0.9320948110185778,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),6,0.6348470806302131,0.958041958041958,0.7636566332218505,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),6,0.8945011196815128,0.8945011196815128,0.8945011196815128,0.8945011196815128
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),6,0.81232149949878,0.9193962816844172,0.8478757221202142,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),6,0.9266487626116736,0.8945011196815128,0.9021288251701924,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",5,0.994592645998558,0.8350484261501211,0.907864429088516,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",5,0.5622489959839357,0.9790209790209792,0.7142857142857142,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",5,0.8606618561831302,0.8606618561831302,0.8606618561831302,0.8606618561831302
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",5,0.7784208209912469,0.90703470258555,0.8110750716871151,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",5,0.9176765699198184,0.8606618561831302,0.8734258172238724,4019.0
+0,Active,Random Forests,False,StandardScaler(),0,0.9542662116040956,0.8462469733656174,0.8970163618864292,3304.0
+1,Inactive,Random Forests,False,StandardScaler(),0,0.5335169880624426,0.8125874125874126,0.6441241685144125,715.0
+2,accuracy,Random Forests,False,StandardScaler(),0,0.8402587708385171,0.8402587708385171,0.8402587708385171,0.8402587708385171
+3,macro avg,Random Forests,False,StandardScaler(),0,0.7438915998332691,0.8294171929765151,0.7705702652004208,4019.0
+4,weighted avg,Random Forests,False,StandardScaler(),0,0.8794128414044733,0.8402587708385171,0.8520255884947915,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",17,0.9860997547015536,0.7300242130750605,0.8389565217391304,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",17,0.4329307056579783,0.9524475524475524,0.5952797202797203,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",17,0.7695944264742474,0.7695944264742474,0.7695944264742474,0.7695944264742474
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",17,0.7095152301797659,0.8412358827613065,0.7171181210094253,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",17,0.8876882418709598,0.7695944264742474,0.7956052121985784,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),15,0.9781132075471698,0.784503631961259,0.8706751763520322,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),15,0.4799123447772096,0.9188811188811188,0.6305182341650671,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),15,0.808410052251804,0.808410052251804,0.808410052251804,0.808410052251804
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),15,0.7290127761621897,0.8516923754211889,0.7505967052585496,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),15,0.8894808072285528,0.808410052251804,0.8279500672045627,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),8,0.9825358016067064,0.8513922518159807,0.9122750121615048,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),8,0.5752595155709342,0.93006993006993,0.7108498129342598,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),8,0.8653894003483453,0.8653894003483453,0.8653894003483453,0.8653894003483453
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),8,0.7788976585888203,0.8907310909429553,0.8115624125478823,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),8,0.9100793337003672,0.8653894003483453,0.8764404718660384,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),8,0.9851222104144528,0.8417070217917676,0.9077852129916762,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),8,0.5627090301003345,0.9412587412587412,0.7043432757718472,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),8,0.8594177656133366,0.8594177656133366,0.8594177656133366,0.8594177656133366
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),8,0.7739156202573936,0.8914828815252545,0.8060642443817617,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),8,0.9099728140659594,0.8594177656133366,0.8715918850214902,4019.0
+0,Active,Random Forests,True,"RobustScaler(quantile_range=(25, 75))",0,0.9572173913043478,0.8329297820823245,0.8907590224955494,3304.0
+1,Inactive,Random Forests,True,"RobustScaler(quantile_range=(25, 75))",0,0.5174825174825175,0.827972027972028,0.6369015599784831,715.0
+2,accuracy,Random Forests,True,"RobustScaler(quantile_range=(25, 75))",0,0.83204777307788,0.83204777307788,0.83204777307788,0.83204777307788
+3,macro avg,Random Forests,True,"RobustScaler(quantile_range=(25, 75))",0,0.7373499543934326,0.8304509050271762,0.7638302912370163,4019.0
+4,weighted avg,Random Forests,True,"RobustScaler(quantile_range=(25, 75))",0,0.8789863799128055,0.83204777307788,0.8455965229434961,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),10,0.9819168173598554,0.8217312348668281,0.8947108255066732,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),10,0.5303030303030303,0.93006993006993,0.6754697816150331,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),10,0.8410052251803931,0.8410052251803931,0.8410052251803931,0.8410052251803931
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),10,0.7561099238314428,0.8759005824683791,0.7850903035608532,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),10,0.9015724884856006,0.8410052251803931,0.8557067582306039,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),7,0.989010989010989,0.8171912832929782,0.8949287371561154,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),7,0.5314197051978278,0.958041958041958,0.6836327345309382,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),7,0.8422493157501866,0.8422493157501866,0.8422493157501866,0.8422493157501866
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),7,0.7602153471044084,0.887616620667468,0.7892807358435268,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),7,0.9076032338663236,0.8422493157501866,0.8573381320610665,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),18,0.965921999242711,0.7720944309927361,0.8582001682085786,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),18,0.4535558780841799,0.8741258741258742,0.5972288580984233,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),18,0.7902463299328191,0.7902463299328191,0.7902463299328191,0.7902463299328191
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),18,0.7097389386634455,0.8231101525593052,0.727714513153501,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),18,0.8747695293177672,0.7902463299328191,0.8117720799456373,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),15,0.9751552795031057,0.7602905569007264,0.854421768707483,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),15,0.4511434511434511,0.9104895104895104,0.603336422613531,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),15,0.7870116944513561,0.7870116944513561,0.7870116944513561,0.7870116944513561
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),15,0.7131493653232783,0.8353900336951184,0.728879095660507,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),15,0.88193098060359,0.7870116944513561,0.809752442393182,4019.0
+0,Active,Logistic Regression,True,MaxAbsScaler(),0,0.9510591672753836,0.788135593220339,0.861966236345581,3304.0
+1,Inactive,Logistic Regression,True,MaxAbsScaler(),0,0.453551912568306,0.8125874125874126,0.5821643286573146,715.0
+2,accuracy,Logistic Regression,True,MaxAbsScaler(),0,0.7924856929584474,0.7924856929584474,0.7924856929584474,0.7924856929584474
+3,macro avg,Logistic Regression,True,MaxAbsScaler(),0,0.7023055399218447,0.8003615029038758,0.7220652825014477,4019.0
+4,weighted avg,Logistic Regression,True,MaxAbsScaler(),0,0.8625501632655401,0.7924856929584474,0.8121880915341576,4019.0
+0,Active,Random Forests,False,PowerTransformer(),0,0.9560906515580736,0.8171912832929782,0.8812010443864229,3304.0
+1,Inactive,Random Forests,False,PowerTransformer(),0,0.4945606694560669,0.8265734265734266,0.6188481675392671,715.0
+2,accuracy,Random Forests,False,PowerTransformer(),0,0.8188604130380692,0.8188604130380692,0.8188604130380692,0.8188604130380692
+3,macro avg,Random Forests,False,PowerTransformer(),0,0.7253256605070703,0.8218823549332024,0.750024605962845,4019.0
+4,weighted avg,Random Forests,False,PowerTransformer(),0,0.8739821824854349,0.8188604130380692,0.8345271685601685,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),6,0.9840893703452944,0.8798426150121066,0.9290508149568552,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),6,0.6272300469483568,0.9342657342657342,0.750561797752809,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),6,0.8895247574023389,0.8895247574023389,0.8895247574023389,0.8895247574023389
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),6,0.8056597086468257,0.9070541746389204,0.8398063063548321,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),6,0.92060232973101,0.8895247574023389,0.8972967350113731,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),16,0.969311377245509,0.7838983050847458,0.8668005354752343,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),16,0.4699331848552338,0.8853146853146853,0.6139670223084384,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),16,0.8019407812888778,0.8019407812888778,0.8019407812888778,0.8019407812888778
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),16,0.7196222810503714,0.8346064951997155,0.7403837788918364,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),16,0.8804695241579134,0.8019407812888778,0.8218202015826592,4019.0
+0,Active,Logistic Regression,False,"RobustScaler(quantile_range=(25, 75))",0,0.9506398537477148,0.7869249394673123,0.8610697135287299,3304.0
+1,Inactive,Logistic Regression,False,"RobustScaler(quantile_range=(25, 75))",0,0.4517133956386293,0.8111888111888111,0.5802901450725362,715.0
+2,accuracy,Logistic Regression,False,"RobustScaler(quantile_range=(25, 75))",0,0.7912416023886539,0.7912416023886539,0.7912416023886539,0.7912416023886539
+3,macro avg,Logistic Regression,False,"RobustScaler(quantile_range=(25, 75))",0,0.701176624693172,0.7990568753280618,0.720679929300633,4019.0
+4,weighted avg,Logistic Regression,False,"RobustScaler(quantile_range=(25, 75))",0,0.8618783664254963,0.7912416023886539,0.811117638025824,4019.0
+0,Active,Random Forests,True,MaxAbsScaler(),0,0.9513349104427172,0.8519975786924939,0.8989302251317259,3304.0
+1,Inactive,Random Forests,True,MaxAbsScaler(),0,0.5386792452830189,0.7986013986013986,0.6433802816901408,715.0
+2,accuracy,Random Forests,True,MaxAbsScaler(),0,0.8424981338641453,0.8424981338641453,0.8424981338641453,0.8424981338641453
+3,macro avg,Random Forests,True,MaxAbsScaler(),0,0.745007077862868,0.8252994886469462,0.7711552534109334,4019.0
+4,weighted avg,Random Forests,True,MaxAbsScaler(),0,0.8779214243543408,0.8424981338641453,0.8534666248429145,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),3,0.9990306946688208,0.9358353510895884,0.9664010001562744,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),3,0.7705627705627706,0.9958041958041958,0.8688224527150701,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),3,0.9465041054988804,0.9465041054988804,0.9465041054988804,0.9465041054988804
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),3,0.8847967326157956,0.965819773446892,0.9176117264356722,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),3,0.9583851197158906,0.9465041054988804,0.9490412934082124,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",13,0.9853407290015848,0.7527239709443099,0.8534660260809883,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",13,0.4535117056856187,0.9482517482517484,0.6135746606334841,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",13,0.7875093306792734,0.7875093306792734,0.7875093306792734,0.7875093306792734
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",13,0.7194262173436017,0.8504878595980291,0.7335203433572361,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",13,0.8907257124126533,0.7875093306792734,0.810788164350467,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),22,0.9668874172185432,0.7953995157384988,0.872799734307539,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),22,0.4803996925441968,0.8741258741258742,0.6200396825396826,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),22,0.8094053247076387,0.8094053247076387,0.8094053247076387,0.8094053247076387
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),22,0.72364355488137,0.8347626949321865,0.7464197084236108,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),22,0.8803388421645103,0.8094053247076387,0.8278324695615779,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),17,0.9741277930223442,0.7521186440677966,0.8488471391972674,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),17,0.4420980926430518,0.9076923076923076,0.5945945945945945,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),17,0.7797959691465539,0.7797959691465539,0.7797959691465539,0.7797959691465539
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),17,0.708112942832698,0.8299054758800521,0.721720866895931,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),17,0.8794770749901983,0.7797959691465539,0.8036143525859434,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),21,0.9658823529411764,0.7454600484261501,0.8414759139050222,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),21,0.427501701837985,0.8783216783216783,0.575091575091575,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),21,0.7690967902463299,0.7690967902463299,0.7690967902463299,0.7690967902463299
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),21,0.6966920273895808,0.8118908633739141,0.7082837444982986,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),21,0.8701017693286406,0.7690967902463299,0.7940848210332594,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),11,0.9857910906298004,0.7769370460048426,0.8689911983750847,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),11,0.4791519434628975,0.9482517482517484,0.6366197183098592,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),11,0.8074147797959691,0.8074147797959691,0.8074147797959691,0.8074147797959691
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),11,0.7324715170463489,0.8625943971282954,0.7528054583424719,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),11,0.8956574777349668,0.8074147797959691,0.8276511614886362,4019.0
+0,Active,Support Vector Machines (SVM),False,StandardScaler(),0,0.9924738219895288,0.9179782082324456,0.9537735849056604,3304.0
+1,Inactive,Support Vector Machines (SVM),False,StandardScaler(),0,0.7185877466251298,0.967832167832168,0.8247914183551847,715.0
+2,accuracy,Support Vector Machines (SVM),False,StandardScaler(),0,0.9268474744961434,0.9268474744961434,0.9268474744961434,0.9268474744961434
+3,macro avg,Support Vector Machines (SVM),False,StandardScaler(),0,0.8555307843073293,0.9429051880323068,0.8892825016304226,4019.0
+4,weighted avg,Support Vector Machines (SVM),False,StandardScaler(),0,0.9437481330406498,0.9268474744961434,0.9308270188236524,4019.0
+0,Active,Support Vector Machines (SVM),False,"RobustScaler(quantile_range=(25, 75))",0,0.989282234491718,0.921912832929782,0.95441015196616,3304.0
+1,Inactive,Support Vector Machines (SVM),False,"RobustScaler(quantile_range=(25, 75))",0,0.725531914893617,0.953846153846154,0.8241691842900302,715.0
+2,accuracy,Support Vector Machines (SVM),False,"RobustScaler(quantile_range=(25, 75))",0,0.9275939288380194,0.9275939288380194,0.9275939288380194,0.9275939288380194
+3,macro avg,Support Vector Machines (SVM),False,"RobustScaler(quantile_range=(25, 75))",0,0.8574070746926675,0.937879493387968,0.8892896681280951,4019.0
+4,weighted avg,Support Vector Machines (SVM),False,"RobustScaler(quantile_range=(25, 75))",0,0.94235974668066,0.9275939288380194,0.9312396389309692,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",9,0.990558615263572,0.7621065375302664,0.861443722203216,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",9,0.4678402166553825,0.9664335664335664,0.6304744525547445,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",9,0.7984573276934561,0.7984573276934561,0.7984573276934561,0.7984573276934561
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",9,0.7291994159594772,0.8642700519819164,0.7459590873789803,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",9,0.8975644239212343,0.7984573276934561,0.8203531454929256,4019.0
+0,Active,Logistic Regression,True,PowerTransformer(),0,0.9512463343108504,0.785411622276029,0.8604111405835543,3304.0
+1,Inactive,Logistic Regression,True,PowerTransformer(),0,0.4508133230054221,0.813986013986014,0.580259222333001,715.0
+2,accuracy,Logistic Regression,True,PowerTransformer(),0,0.7904951480467778,0.7904951480467778,0.7904951480467778,0.7904951480467778
+3,macro avg,Logistic Regression,True,PowerTransformer(),0,0.7010298286581363,0.7996988181310215,0.7203351814582777,4019.0
+4,weighted avg,Logistic Regression,True,PowerTransformer(),0,0.8622168237153338,0.7904951480467778,0.8105707271600295,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),13,0.9804147465437788,0.7726997578692494,0.8642518618821936,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),13,0.4692579505300353,0.9286713286713286,0.6234741784037559,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),13,0.8004478726051256,0.8004478726051256,0.8004478726051256,0.8004478726051256
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),13,0.724836348536907,0.850685543270289,0.7438630201429748,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),13,0.8894774215500425,0.8004478726051256,0.8214163197853828,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",10,0.986157875046764,0.7978208232445521,0.8820478500920195,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",10,0.5037147102526003,0.9482517482517484,0.6579330422125181,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",10,0.8245832296591192,0.8245832296591192,0.8245832296591192,0.8245832296591192
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",10,0.7449362926496821,0.8730362857481502,0.7699904461522689,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",10,0.9003288472219748,0.8245832296591192,0.8421767160701624,4019.0
+0,Active,Decision Tree,True,MaxAbsScaler(),0,0.9566265060240964,0.8411016949152542,0.895152198421646,3304.0
+1,Inactive,Decision Tree,True,MaxAbsScaler(),0,0.5287253141831239,0.8237762237762237,0.6440677966101694,715.0
+2,accuracy,Decision Tree,True,MaxAbsScaler(),0,0.8380194078128888,0.8380194078128888,0.8380194078128888,0.8380194078128888
+3,macro avg,Decision Tree,True,MaxAbsScaler(),0,0.7426759101036101,0.832438959345739,0.7696099975159076,4019.0
+4,weighted avg,Decision Tree,True,MaxAbsScaler(),0,0.8805007652511938,0.8380194078128888,0.8504830400998729,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),12,0.980064079743681,0.8332324455205811,0.9007034189432358,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),12,0.5446280991735537,0.9216783216783216,0.6846753246753247,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),12,0.8489674048270714,0.8489674048270714,0.8489674048270714,0.8489674048270714
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),12,0.7623460894586174,0.8774553835994514,0.7926893718092802,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),12,0.9025978627475026,0.8489674048270714,0.8622709513140852,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),3,0.9967341606792944,0.923728813559322,0.9588438579956016,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),3,0.7366771159874608,0.986013986013986,0.8433014354066984,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),3,0.9348096541428216,0.9348096541428216,0.9348096541428216,0.9348096541428216
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),3,0.8667056383333777,0.954871399786654,0.90107264670115,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),3,0.95046872476124,0.9348096541428216,0.9382882889109868,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),3,0.9990256576810652,0.9309927360774818,0.9638101206329313,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),3,0.7574468085106383,0.9958041958041958,0.8604229607250755,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),3,0.9425230156755412,0.9425230156755412,0.9425230156755412,0.9425230156755412
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),3,0.8782362330958517,0.9633984659408388,0.9121165406790034,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),3,0.9560475842406932,0.9425230156755412,0.9454170329658208,4019.0
+0,Active,Decision Tree,False,"RobustScaler(quantile_range=(25, 75))",0,0.9478346456692912,0.8743946731234867,0.9096347607052896,3304.0
+1,Inactive,Decision Tree,False,"RobustScaler(quantile_range=(25, 75))",0,0.572605561277034,0.7776223776223776,0.6595492289442467,715.0
+2,accuracy,Decision Tree,False,"RobustScaler(quantile_range=(25, 75))",0,0.8571784025877084,0.8571784025877084,0.8571784025877084,0.8571784025877084
+3,macro avg,Decision Tree,False,"RobustScaler(quantile_range=(25, 75))",0,0.7602201034731626,0.8260085253729321,0.7845919948247682,4019.0
+4,weighted avg,Decision Tree,False,"RobustScaler(quantile_range=(25, 75))",0,0.8810795336164263,0.8571784025877084,0.8651433063113743,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),10,0.9815275310834812,0.8362590799031477,0.9030887399901943,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),10,0.5506644518272426,0.9272727272727272,0.6909848879624805,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),10,0.8524508584224931,0.8524508584224931,0.8524508584224931,0.8524508584224931
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),10,0.766095991455362,0.8817659035879375,0.7970368139763375,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),10,0.9048748558736752,0.8524508584224931,0.8653544144863837,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),19,0.9722882026920032,0.7433414043583535,0.8425385934819897,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),19,0.4320160750167448,0.902097902097902,0.5842391304347827,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),19,0.7715849713859169,0.7715849713859169,0.7715849713859169,0.7715849713859169
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),19,0.702152138854374,0.8227196532281278,0.7133888619583861,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),19,0.8761711160316871,0.7715849713859169,0.7965858400411454,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),16,0.9682005237560792,0.7832929782082324,0.8659862807428474,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),16,0.4680534918276374,0.8811188811188811,0.611353711790393,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),16,0.8006966907190843,0.8006966907190843,0.8006966907190843,0.8006966907190843
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),16,0.7181270077918585,0.8322059296635568,0.7386699962666202,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),16,0.8792218903077499,0.8006966907190843,0.8206858859180142,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),6,0.9866757772463272,0.87409200968523,0.9269780131600064,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),6,0.6190476190476191,0.9454545454545454,0.7482014388489209,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),6,0.8867877581487932,0.8867877581487932,0.8867877581487932,0.8867877581487932
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),6,0.8028616981469732,0.9097732775698876,0.8375897260044636,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),6,0.9212729075991324,0.8867877581487932,0.8951727753813484,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),5,0.9947183098591548,0.8550242130750605,0.9195963541666664,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),5,0.5937234944868532,0.9790209790209792,0.7391763463569165,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),5,0.8770838517044041,0.8770838517044041,0.8770838517044041,0.8770838517044041
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),5,0.794220902173004,0.9170225960480198,0.8293863502617915,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),5,0.9233793466864264,0.8770838517044041,0.8874987414311674,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),17,0.9749144811858608,0.7763317191283293,0.8643639427127212,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),17,0.4675792507204611,0.9076923076923076,0.6172135045173561,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),17,0.7997014182632496,0.7997014182632496,0.7997014182632496,0.7997014182632496
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),17,0.721246865953161,0.8420120134103185,0.7407887236150387,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),17,0.884657031625582,0.7997014182632496,0.8203946559971985,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),21,0.9668769716088328,0.7421307506053268,0.8397260273972602,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),21,0.4254888739042481,0.8825174825174825,0.5741583257506825,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),21,0.7671062453346603,0.7671062453346603,0.7671062453346603,0.7671062453346603
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),21,0.6961829227565405,0.8123241165614047,0.7069421765739714,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),21,0.870561348354596,0.7671062453346603,0.7924802183210464,4019.0
+0,Active,Logistic Regression,True,"RobustScaler(quantile_range=(25, 75))",0,0.95032632342277,0.7932808716707022,0.8647311118442758,3304.0
+1,Inactive,Logistic Regression,True,"RobustScaler(quantile_range=(25, 75))",0,0.458366375892149,0.8083916083916084,0.5850202429149797,715.0
+2,accuracy,Logistic Regression,True,"RobustScaler(quantile_range=(25, 75))",0,0.7959691465538691,0.7959691465538691,0.7959691465538691,0.7959691465538691
+3,macro avg,Logistic Regression,True,"RobustScaler(quantile_range=(25, 75))",0,0.7043463496574596,0.8008362400311553,0.7248756773796277,4019.0
+4,weighted avg,Logistic Regression,True,"RobustScaler(quantile_range=(25, 75))",0,0.8628042128270016,0.7959691465538691,0.8149691632788498,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",21,0.9850993377483444,0.7203389830508474,0.8321678321678322,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",21,0.4235807860262008,0.9496503496503496,0.5858498705780846,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",21,0.7611346105996517,0.7611346105996517,0.7611346105996517,0.7611346105996517
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",21,0.7043400618872726,0.8349946663505985,0.7090088513729584,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",21,0.8852024070488338,0.7611346105996517,0.7883466471624404,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),10,0.977403156384505,0.8247578692493946,0.8946158896913985,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),10,0.529650690495532,0.911888111888112,0.6700924974306269,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),10,0.8402587708385171,0.8402587708385171,0.8402587708385171,0.8402587708385171
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),10,0.7535269234400186,0.8683229905687533,0.7823541935610128,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),10,0.8977457756652675,0.8402587708385171,0.8546720664850158,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),16,0.9685902118334552,0.8026634382566586,0.8778550148957299,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),16,0.4910226385636221,0.8797202797202798,0.6302605210420842,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),16,0.8163722318984822,0.8163722318984822,0.8163722318984822,0.8163722318984822
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),16,0.7298064251985386,0.8411918589884693,0.7540577679689071,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),16,0.8836285758822406,0.8163722318984822,0.8338067284798661,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),5,0.9968096419709322,0.851089588377724,0.9182040816326532,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),5,0.5893155258764607,0.9874125874125874,0.7381076842655515,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),5,0.8753421249066932,0.8753421249066932,0.8753421249066932,0.8753421249066932
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),5,0.7930625839236964,0.9192510878951556,0.8281558829491023,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),5,0.9243144210185692,0.8753421249066932,0.8861640407972519,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),16,0.9717948717948718,0.8029661016949152,0.8793503480278421,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),16,0.4949573312645461,0.8923076923076924,0.6367265469061876,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),16,0.8188604130380692,0.8188604130380692,0.8188604130380692,0.8188604130380692
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),16,0.733376101529709,0.8476368970013037,0.7580384474670148,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),16,0.8869631122827587,0.8188604130380692,0.8361863724612875,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),3,0.9964216005204944,0.9270581113801452,0.960489181561618,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),3,0.744973544973545,0.9846153846153848,0.8481927710843374,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),3,0.9372978352824084,0.9372978352824084,0.9372978352824084,0.9372978352824084
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),3,0.8706975727470196,0.955836747997765,0.9043409763229776,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),3,0.9516877463985564,0.9372978352824084,0.9405110941042268,4019.0
+0,Active,Support Vector Machines (SVM),True,MinMaxScaler(),0,0.9921414538310412,0.9170702179176756,0.9531299150676312,3304.0
+1,Inactive,Support Vector Machines (SVM),True,MinMaxScaler(),0,0.7160621761658031,0.9664335664335664,0.8226190476190477,715.0
+2,accuracy,Support Vector Machines (SVM),True,MinMaxScaler(),0,0.9258522020403084,0.9258522020403084,0.9258522020403084,0.9258522020403084
+3,macro avg,Support Vector Machines (SVM),True,MinMaxScaler(),0,0.8541018149984222,0.9417518921756208,0.8878744813433395,4019.0
+4,weighted avg,Support Vector Machines (SVM),True,MinMaxScaler(),0,0.9430255833332444,0.9258522020403084,0.9299113855265172,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),16,0.973211009174312,0.8026634382566586,0.8797478852214299,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),16,0.4961360123647604,0.8979020979020979,0.6391239422598307,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),16,0.8196068673799453,0.8196068673799453,0.8196068673799453,0.8196068673799453
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),16,0.7346735107695361,0.8502827680793783,0.7594359137406304,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),16,0.8883370050143643,0.8196068673799453,0.8369396943238078,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),4,0.9951721918249116,0.9358353510895884,0.9645921073155516,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),4,0.7675438596491229,0.9790209790209792,0.860479409956976,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),4,0.943518288131376,0.943518288131376,0.943518288131376,0.943518288131376
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),4,0.8813580257370172,0.9574281650552836,0.9125357586362636,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),4,0.954675984433598,0.943518288131376,0.9460699429434736,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",14,0.9815303430079156,0.788135593220339,0.8742655699177438,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",14,0.4875549048316251,0.9314685314685316,0.640076886112446,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",14,0.8136352326449365,0.8136352326449365,0.8136352326449365,0.8136352326449365
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",14,0.7345426239197703,0.8598020623444352,0.7571712280150948,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",14,0.8936496666466198,0.8136352326449365,0.8326022434880878,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),5,0.9919552291010842,0.8583535108958837,0.920331007626156,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),5,0.596551724137931,0.967832167832168,0.7381333333333333,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),5,0.8778303060462802,0.8778303060462802,0.8778303060462802,0.8778303060462802
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),5,0.7942534766195076,0.913092839364026,0.8292321704797447,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),5,0.9216109877354076,0.8778303060462802,0.8879171392212373,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",22,0.9783549783549784,0.7524213075060533,0.8506415739948674,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",22,0.4465493910690122,0.9230769230769232,0.6019151846785226,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",22,0.7827817865140583,0.7827817865140583,0.7827817865140583,0.7827817865140583
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",22,0.7124521847119952,0.8377491152914882,0.7262783793366949,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",22,0.8837441311518269,0.7827817865140583,0.8063919177716311,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),19,0.961926961926962,0.7493946731234867,0.8424634229329705,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),19,0.4269896193771626,0.862937062937063,0.5712962962962963,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),19,0.7695944264742474,0.7695944264742474,0.7695944264742474,0.7695944264742474
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),19,0.6944582906520622,0.8061658680302748,0.7068798596146334,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),19,0.8667589599555494,0.7695944264742474,0.7942214484255752,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),8,0.981145251396648,0.8504842615012107,0.9111543450064852,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),8,0.5722943722943723,0.9244755244755244,0.7069518716577541,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),8,0.8636476735506344,0.8636476735506344,0.8636476735506344,0.8636476735506344
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),8,0.7767198118455102,0.8874798929883676,0.8090531083321195,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),8,0.9084086555872112,0.8636476735506344,0.8748257138931875,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),17,0.9725920125293656,0.7518159806295399,0.8480710139979515,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),17,0.4402730375426621,0.902097902097902,0.5917431192660549,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),17,0.7785518785767603,0.7785518785767603,0.7785518785767603,0.7785518785767603
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),17,0.706432525036014,0.826956941363721,0.7199070666320032,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),17,0.8778898311122239,0.7785518785767603,0.802469012322583,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),5,0.9958115183246072,0.863498789346247,0.924947317231318,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),5,0.6091854419410745,0.9832167832167832,0.7522739432851792,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),5,0.8847972132371237,0.8847972132371237,0.8847972132371237,0.8847972132371237
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),5,0.802498480132841,0.9233577862815152,0.8386106302582486,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),5,0.9270288249645112,0.8847972132371237,0.8942278690174614,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),15,0.9814744801512288,0.7857142857142857,0.8727517229786518,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),15,0.4847161572052402,0.9314685314685316,0.6376256582096697,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),15,0.811644687733267,0.811644687733267,0.811644687733267,0.811644687733267
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),15,0.7330953186782345,0.8585914085914086,0.7551886905941607,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),15,0.893098714810004,0.811644687733267,0.8309216318341327,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",7,0.9920091324200914,0.789043583535109,0.8789615643964936,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",7,0.4989216391085549,0.9706293706293706,0.6590693257359924,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",7,0.8213485941776562,0.8213485941776562,0.8213485941776562,0.8213485941776562
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",7,0.7454653857643232,0.8798364770822398,0.769015445066243,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",7,0.904286425846877,0.8213485941776562,0.8398416463466658,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),6,0.99078183680437,0.8783292978208233,0.9311727899887692,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),6,0.6311926605504588,0.9622377622377624,0.7623268698060941,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),6,0.8932570291117193,0.8932570291117193,0.8932570291117193,0.8932570291117193
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),6,0.8109872486774143,0.9202835300292928,0.8467498298974316,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),6,0.9268091418500166,0.8932570291117193,0.9011342647509956,4019.0
+0,Active,Random Forests,True,StandardScaler(),0,0.9567190226876092,0.8296004842615012,0.8886367320473334,3304.0
+1,Inactive,Random Forests,True,StandardScaler(),0,0.5121317157712305,0.8265734265734266,0.6324237560192617,715.0
+2,accuracy,Random Forests,True,StandardScaler(),0,0.8290619557103757,0.8290619557103757,0.8290619557103757,0.8290619557103757
+3,macro avg,Random Forests,True,StandardScaler(),0,0.7344253692294198,0.8280869554174639,0.7605302440332975,4019.0
+4,weighted avg,Random Forests,True,StandardScaler(),0,0.8776247394218188,0.8290619557103757,0.8430551749783931,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),15,0.9733178654292344,0.7618038740920097,0.8546689303904923,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),15,0.4508025122121423,0.9034965034965036,0.6014897579143389,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),15,0.7870116944513561,0.7870116944513561,0.7870116944513561,0.7870116944513561
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),15,0.7120601888206883,0.8326501887942566,0.7280793441524156,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),15,0.8803597968673481,0.7870116944513561,0.8096271019952572,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",20,0.9816806053365194,0.7460653753026635,0.8478073946689596,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",20,0.4436339522546419,0.9356643356643356,0.601889338731444,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",20,0.7797959691465539,0.7797959691465539,0.7797959691465539,0.7797959691465539
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",20,0.7126572787955806,0.8408648554834997,0.7248483667002018,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",20,0.8859594416257598,0.7797959691465539,0.8040573548592249,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",11,0.989289964299881,0.7548426150121066,0.8563090128755365,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",11,0.459279038718291,0.9622377622377624,0.621780388612743,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",11,0.7917392386165713,0.7917392386165713,0.7917392386165713,0.7917392386165713
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",11,0.7242845015090861,0.8585401886249344,0.7390447007441397,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",11,0.8949983963001704,0.7917392386165713,0.8145852093552833,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),6,0.9884196185286104,0.8783292978208233,0.9301282051282052,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),6,0.628808864265928,0.9524475524475524,0.7575083426028921,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),6,0.8915153023140084,0.8915153023140084,0.8915153023140084,0.8915153023140084
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),6,0.8086142413972692,0.9153884251341878,0.8438182738655486,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),6,0.9244430847396534,0.8915153023140084,0.8994182768610743,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",20,0.9806247528667458,0.7506053268765133,0.850334304817418,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",20,0.4469798657718121,0.9314685314685316,0.6040816326530613,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",20,0.7827817865140583,0.7827817865140583,0.7827817865140583,0.7827817865140583
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",20,0.7138023093192789,0.8410369291725224,0.7272079687352396,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",20,0.8856866851203219,0.7827817865140583,0.8065247351240826,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",12,0.9818662636947488,0.7866222760290557,0.8734666442614686,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",12,0.4861516034985422,0.9328671328671329,0.639195016770484,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",12,0.8126399601891018,0.8126399601891018,0.8126399601891018,0.8126399601891018
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",12,0.7340089335966455,0.8597447044480943,0.7563308305159763,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",12,0.8936761711243861,0.8126399601891018,0.8317885617394347,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),16,0.968361581920904,0.7781476997578692,0.8628964591374391,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),16,0.4626099706744868,0.8825174825174825,0.607022607022607,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),16,0.7967156008957452,0.7967156008957452,0.7967156008957452,0.7967156008957452
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),16,0.7154857762976954,0.8303325911376759,0.734959533080023,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),16,0.8783858660609417,0.7967156008957452,0.8173752338918295,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),17,0.9720605355064028,0.7581719128329297,0.851895936065295,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),17,0.4459084604715673,0.8993006993006993,0.5961984237366713,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),17,0.7832794227419756,0.7832794227419756,0.7832794227419756,0.7832794227419756
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),17,0.708984497988985,0.8287363060668145,0.7240471799009831,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),17,0.878455476125983,0.7832794227419756,0.8064060825407949,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),7,0.9891264951069229,0.8259685230024213,0.900214415305954,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),7,0.5436507936507936,0.958041958041958,0.6936708860759493,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),7,0.8494650410549888,0.8494650410549888,0.8494650410549888,0.8494650410549888
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),7,0.7663886443788581,0.8920052405221897,0.7969426506909516,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),7,0.9098741620536428,0.8494650410549888,0.8634692987596855,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),22,0.9591836734693876,0.7681598062953995,0.8531092436974789,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),22,0.4420975965040058,0.848951048951049,0.5814176245210728,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),22,0.7825329684000996,0.7825329684000996,0.7825329684000996,0.7825329684000996
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),22,0.7006406349866967,0.8085554276232243,0.7172634341092758,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),22,0.867191500035636,0.7825329684000996,0.8047739593702505,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),20,0.9627066512879662,0.7578692493946732,0.8480948348856902,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),20,0.4358251057827926,0.8643356643356643,0.5794655414908579,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),20,0.7768101517790496,0.7768101517790496,0.7768101517790496,0.7768101517790496
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),20,0.6992658785353794,0.8111024568651688,0.713780188188274,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),20,0.8689718154989144,0.7768101517790496,0.8003043534780502,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",12,0.985316265060241,0.7920702179176755,0.8781879194630873,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",12,0.495964783565664,0.9454545454545454,0.6506256015399422,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",12,0.8193580492659865,0.8193580492659865,0.8193580492659865,0.8193580492659865
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",12,0.7406405243129525,0.8687623816861105,0.7644067605015148,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",12,0.8982582134880531,0.8193580492659865,0.8377034563341874,4019.0
+0,Active,Naive Bayes,True,"RobustScaler(quantile_range=(25, 75))",0,0.9361088211046992,0.6873486682808717,0.7926701570680628,3304.0
+1,Inactive,Naive Bayes,True,"RobustScaler(quantile_range=(25, 75))",0,0.3515379786566227,0.7832167832167832,0.4852686308492202,715.0
+2,accuracy,Naive Bayes,True,"RobustScaler(quantile_range=(25, 75))",0,0.7044040806170689,0.7044040806170689,0.7044040806170689,0.7044040806170689
+3,macro avg,Naive Bayes,True,"RobustScaler(quantile_range=(25, 75))",0,0.6438233998806608,0.7352827257488275,0.6389693939586415,4019.0
+4,weighted avg,Naive Bayes,True,"RobustScaler(quantile_range=(25, 75))",0,0.8321107737420779,0.7044040806170689,0.7379819034610778,4019.0
+0,Active,Naive Bayes,True,MinMaxScaler(),0,0.9379395945386844,0.6861380145278451,0.7925187904212551,3304.0
+1,Inactive,Naive Bayes,True,MinMaxScaler(),0,0.3526841448189762,0.7902097902097902,0.487699611566681,715.0
+2,accuracy,Naive Bayes,True,MinMaxScaler(),0,0.7046528987310277,0.7046528987310277,0.7046528987310277,0.7046528987310277
+3,macro avg,Naive Bayes,True,MinMaxScaler(),0,0.6453118696788303,0.7381739023688176,0.6401092009939681,4019.0
+4,weighted avg,Naive Bayes,True,MinMaxScaler(),0,0.8338197521526204,0.7046528987310277,0.738289949196816,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),3,0.9987034035656402,0.9325060532687652,0.96447018312725,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),3,0.7612419700214133,0.9944055944055944,0.8623408126137053,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),3,0.943518288131376,0.943518288131376,0.943518288131376,0.943518288131376
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),3,0.8799726867935267,0.9634558238371798,0.9134054978704776,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),3,0.9564578387524724,0.943518288131376,0.9463008624213072,4019.0
+0,Active,Random Forests,False,MaxAbsScaler(),0,0.9550639474593848,0.8362590799031477,0.8917218008713894,3304.0
+1,Inactive,Random Forests,False,MaxAbsScaler(),0,0.5195381882770871,0.8181818181818182,0.6355241716458447,715.0
+2,accuracy,Random Forests,False,MaxAbsScaler(),0,0.8330430455337149,0.8330430455337149,0.8330430455337149,0.8330430455337149
+3,macro avg,Random Forests,False,MaxAbsScaler(),0,0.7373010678682359,0.827220449042483,0.763622986258617,4019.0
+4,weighted avg,Random Forests,False,MaxAbsScaler(),0,0.8775817584035641,0.8330430455337149,0.846142974074608,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),17,0.9759783029833398,0.762409200968523,0.8560747663551402,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),17,0.4541029207232267,0.9132867132867132,0.6065954482117974,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),17,0.7892510574769843,0.7892510574769843,0.7892510574769843,0.7892510574769843
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),17,0.7150406118532833,0.8378479571276182,0.7313351072834688,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),17,0.8831340884235037,0.7892510574769843,0.8116911603654686,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),20,0.9608662613981764,0.7654358353510896,0.852088948787062,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),20,0.441240086517664,0.855944055944056,0.582302568981922,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),20,0.7815376959442647,0.7815376959442647,0.7815376959442647,0.7815376959442647
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),20,0.7010531739579202,0.8106899456475728,0.7171957588844919,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),20,0.8684221919680777,0.7815376959442647,0.8040926159777375,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),9,0.9850857568978374,0.799636803874092,0.8827263615101905,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),9,0.5048616305160808,0.944055944055944,0.6578947368421053,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),9,0.8253296840009953,0.8253296840009953,0.8253296840009953,0.8253296840009953
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),9,0.7449736937069591,0.871846373965018,0.7703105491761479,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),9,0.8996515069941409,0.8253296840009953,0.8427277022323401,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),8,0.9803508771929824,0.8456416464891041,0.908027299317517,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),8,0.5637296834901625,0.9216783216783216,0.6995753715498938,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),8,0.859168947499378,0.859168947499378,0.859168947499378,0.859168947499378
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),8,0.7720402803415725,0.8836599840837129,0.8038013354337055,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),8,0.9062319039415476,0.859168947499378,0.870942669222008,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",21,0.9848236259228876,0.7266949152542372,0.8362939742250087,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",21,0.428842504743833,0.9482517482517484,0.5905923344947736,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",21,0.7661109728788256,0.7661109728788256,0.7661109728788256,0.7661109728788256
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",21,0.7068330653333603,0.8374733317529928,0.7134431543598911,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",21,0.8859118315354718,0.7661109728788256,0.7925824359301298,4019.0
+0,Active,Naive Bayes,False,MaxAbsScaler(),0,0.9292604501607716,0.6997578692493946,0.7983425414364641,3304.0
+1,Inactive,Naive Bayes,False,MaxAbsScaler(),0,0.3520574787720444,0.7538461538461538,0.4799643811219946,715.0
+2,accuracy,Naive Bayes,False,MaxAbsScaler(),0,0.7093804428962428,0.7093804428962428,0.7093804428962428,0.7093804428962428
+3,macro avg,Naive Bayes,False,MaxAbsScaler(),0,0.640658964466408,0.7268020115477742,0.6391534612792293,4019.0
+4,weighted avg,Naive Bayes,False,MaxAbsScaler(),0,0.8265731835414784,0.7093804428962428,0.7417014902732779,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),11,0.9824628288219596,0.7799636803874092,0.869579888645183,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),11,0.4792263610315186,0.9356643356643356,0.6338228327806726,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),11,0.8076635979099278,0.8076635979099278,0.8076635979099278,0.8076635979099278
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),11,0.730844594926739,0.8578140080258725,0.7517013607129278,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),11,0.8929345694364992,0.8076635979099278,0.8276375410604293,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),11,0.9836501901140684,0.7829903147699758,0.8719245028648468,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),11,0.4838012958963283,0.9398601398601398,0.6387832699619772,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),11,0.8108982333913909,0.8108982333913909,0.8108982333913909,0.8108982333913909
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),11,0.7337257430051983,0.8614252273150578,0.755353886413412,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),11,0.8947245968406959,0.8108982333913909,0.8304475231371653,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",3,0.9970462750246144,0.9194915254237288,0.956699732325618,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",3,0.7263374485596708,0.9874125874125874,0.8369887374036752,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",3,0.9315750186613584,0.9315750186613584,0.9315750186613584,0.9315750186613584
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",3,0.8616918617921425,0.953452056418158,0.8968442348646466,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",3,0.9488858343870342,0.9315750186613584,0.9354025535823512,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",10,0.9833086053412464,0.802360774818402,0.8836666666666668,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",10,0.5064247921390779,0.9370629370629372,0.6575073601570167,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",10,0.82632495645683,0.82632495645683,0.82632495645683,0.82632495645683
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",10,0.7448666987401621,0.8697118559406696,0.7705870134118418,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",10,0.8984686136916941,0.82632495645683,0.8434318062152113,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),17,0.9695098417599384,0.7602905569007264,0.8522476675148432,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),17,0.4453781512605042,0.8895104895104895,0.5935604293047131,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),17,0.7832794227419756,0.7832794227419756,0.7832794227419756,0.7832794227419756
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),17,0.7074439965102213,0.8249005232056079,0.7229040484097782,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),17,0.8762642187922609,0.7832794227419756,0.8062259269524538,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),9,0.9891588785046728,0.8008474576271186,0.88509784244857,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),9,0.5104166666666666,0.9594405594405594,0.6663428848955804,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),9,0.8290619557103757,0.8290619557103757,0.8290619557103757,0.8290619557103757
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),9,0.7497877725856698,0.880144008533839,0.7757203636720752,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),9,0.9039882685359804,0.8290619557103757,0.8461802523389936,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),9,0.9895287958115184,0.8008474576271186,0.8852459016393442,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),9,0.5107806691449814,0.9608391608391608,0.6669902912621359,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),9,0.8293107738243344,0.8293107738243344,0.8293107738243344,0.8293107738243344
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),9,0.7501547324782498,0.8808433092331398,0.7761180964507401,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),9,0.9043571335655431,0.8293107738243344,0.8464171478648471,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),14,0.9743112434847356,0.7920702179176755,0.8737896494156928,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),14,0.4846211552888222,0.9034965034965036,0.630859375,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),14,0.8118935058472256,0.8118935058472256,0.8118935058472256,0.8118935058472256
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),14,0.7294661993867789,0.8477833607070895,0.7523245122078464,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),14,0.8871929521037757,0.8118935058472256,0.8305711507326323,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",8,0.9882654932159882,0.815677966101695,0.8937158016912617,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",8,0.5286377708978328,0.9552447552447552,0.6806178375685102,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",8,0.8405075889524758,0.8405075889524758,0.8405075889524758,0.8405075889524758
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",8,0.7584516320569106,0.8854613606732251,0.787166819629886,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",8,0.9064954455778989,0.8405075889524758,0.8558046187234172,4019.0
+0,Active,Naive Bayes,False,StandardScaler(),0,0.9301223845242796,0.7130750605326877,0.8072640054822684,3304.0
+1,Inactive,Naive Bayes,False,StandardScaler(),0,0.3620457604306864,0.7524475524475525,0.4888686960472513,715.0
+2,accuracy,Naive Bayes,False,StandardScaler(),0,0.7200796217964668,0.7200796217964668,0.7200796217964668,0.7200796217964668
+3,macro avg,Naive Bayes,False,StandardScaler(),0,0.646084072477483,0.7327613064901201,0.6480663507647598,4019.0
+4,weighted avg,Naive Bayes,False,StandardScaler(),0,0.829058740277721,0.7200796217964668,0.7506199034056231,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),10,0.9805265055896142,0.8229418886198547,0.8948494322856673,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),10,0.5304975922953451,0.9244755244755244,0.6741458439571647,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),10,0.8410052251803931,0.8410052251803931,0.8410052251803931,0.8410052251803931
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),10,0.7555120489424796,0.8737087065476896,0.7844976381214159,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),10,0.9004641336051896,0.8410052251803931,0.85558517111252,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),10,0.9750356633380884,0.8274818401937046,0.8952193844138835,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),10,0.5308641975308642,0.902097902097902,0.6683937823834197,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),10,0.8407564070664344,0.8407564070664344,0.8407564070664344,0.8407564070664344
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),10,0.7529499304344763,0.8647898711458033,0.7818065833986516,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),10,0.8960153602646461,0.8407564070664344,0.8548659866901258,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),19,0.970014992503748,0.7832929782082324,0.8667113194909578,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),19,0.4700222057735011,0.8881118881118881,0.6147144240077445,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),19,0.8019407812888778,0.8019407812888778,0.8019407812888778,0.8019407812888778
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),19,0.7200185991386246,0.8357024331600602,0.7407128717493512,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),19,0.8810638000399197,0.8019407812888778,0.8218798240267883,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),11,0.986998514115899,0.8041767554479419,0.8862575050033354,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),11,0.5124340617935192,0.951048951048951,0.6660137120470128,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),11,0.8303060462801692,0.8303060462801692,0.8303060462801692,0.8303060462801692
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),11,0.7497162879547091,0.8776128532484464,0.776135608525174,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),11,0.9025711482511312,0.8303060462801692,0.8470750437035667,4019.0
+0,Active,Random Forests,True,PowerTransformer(),0,0.95697796432319,0.8280871670702179,0.8878792795716371,3304.0
+1,Inactive,Random Forests,True,PowerTransformer(),0,0.5103448275862069,0.827972027972028,0.6314666666666667,715.0
+2,accuracy,Random Forests,True,PowerTransformer(),0,0.8280666832545409,0.8280666832545409,0.8280666832545409,0.8280666832545409
+3,macro avg,Random Forests,True,PowerTransformer(),0,0.7336613959546985,0.8280295975211229,0.7596729731191519,4019.0
+4,weighted avg,Random Forests,True,PowerTransformer(),0,0.8775197178024279,0.8280666832545409,0.8422622061137985,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),21,0.9720948012232415,0.7696731234866828,0.8591216216216216,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),21,0.4575908766928011,0.8979020979020979,0.6062322946175638,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),21,0.7924856929584474,0.7924856929584474,0.7924856929584474,0.7924856929584474
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),21,0.7148428389580214,0.8337876106943903,0.7326769581195927,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),21,0.8805620054931433,0.7924856929584474,0.8141313581710365,4019.0
+0,Active,Decision Tree,False,MinMaxScaler(),0,0.950558753809685,0.8495762711864406,0.8972350966917052,3304.0
+1,Inactive,Decision Tree,False,MinMaxScaler(),0,0.5337711069418386,0.7958041958041958,0.6389668725435148,715.0
+2,accuracy,Decision Tree,False,MinMaxScaler(),0,0.8400099527245584,0.8400099527245584,0.8400099527245584,0.8400099527245584
+3,macro avg,Decision Tree,False,MinMaxScaler(),0,0.7421649303757618,0.8226902334953182,0.76810098461761,4019.0
+4,weighted avg,Decision Tree,False,MinMaxScaler(),0,0.8764101677160024,0.8400099527245584,0.8512879008056748,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),8,0.9810326659641728,0.8453389830508474,0.908145017070395,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),8,0.5639931740614335,0.9244755244755244,0.7005829358770536,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),8,0.8594177656133366,0.8594177656133366,0.8594177656133366,0.8594177656133366
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),8,0.7725129200128031,0.8849072537631859,0.8043639764737243,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),8,0.9068392753917772,0.8594177656133366,0.8712186950865085,4019.0
+0,Active,Decision Tree,True,StandardScaler(),0,0.9584049501546924,0.8438256658595642,0.897473040399163,3304.0
+1,Inactive,Decision Tree,True,StandardScaler(),0,0.5351351351351351,0.8307692307692308,0.650958904109589,715.0
+2,accuracy,Decision Tree,True,StandardScaler(),0,0.8415028614083105,0.8415028614083105,0.8415028614083105,0.8415028614083105
+3,macro avg,Decision Tree,True,StandardScaler(),0,0.7467700426449138,0.8372974483143976,0.774215972254376,4019.0
+4,weighted avg,Decision Tree,True,StandardScaler(),0,0.8831031542504915,0.8415028614083105,0.853616954943317,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),12,0.9770909090909092,0.8132566585956417,0.8876775685497192,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),12,0.5137903861308116,0.911888111888112,0.6572580645161291,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),12,0.8308036825080866,0.8308036825080866,0.8308036825080866,0.8308036825080866
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),12,0.7454406476108604,0.8625723852418767,0.7724678165329242,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),12,0.8946674520328176,0.8308036825080866,0.8466847978644699,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),9,0.989437947944172,0.7938861985472155,0.8809403862300588,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),9,0.5021929824561403,0.9608391608391608,0.6596255400864138,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),9,0.8235879572032844,0.8235879572032844,0.8235879572032844,0.8235879572032844
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),9,0.7458154652001562,0.8773626796931882,0.7702829631582363,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),9,0.9027546559999216,0.8235879572032844,0.8415673792649665,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),15,0.9792547061083364,0.7714891041162227,0.8630438462840696,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),15,0.4668079096045198,0.9244755244755244,0.6203660253402158,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),15,0.7987061458074147,0.7987061458074147,0.7987061458074147,0.7987061458074147
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),15,0.7230313078564281,0.8479823142958736,0.7417049358121427,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),15,0.8880878836400039,0.7987061458074147,0.8198702603236676,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),14,0.9714285714285714,0.8026634382566586,0.8790188929400067,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),14,0.4941815360744763,0.8909090909090909,0.6357285429141717,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),14,0.8183627768101518,0.8183627768101518,0.8183627768101518,0.8183627768101518
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),14,0.7328050537515238,0.8467862645828748,0.7573737179270892,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),14,0.8865239607597041,0.8183627768101518,0.8357363350229945,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MinMaxScaler(),21,0.962382445141066,0.7433414043583535,0.8387978142076503,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MinMaxScaler(),21,0.4219495569188821,0.8657342657342657,0.5673693858845097,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MinMaxScaler(),21,0.7651157004229908,0.7651157004229908,0.7651157004229908,0.7651157004229908
+3,macro avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),21,0.6921660010299739,0.8045378350463096,0.7030836000460801,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MinMaxScaler(),21,0.8662367583834492,0.7651157004229908,0.7905093528364023,4019.0
+0,Active,Naive Bayes,True,MaxAbsScaler(),0,0.9353921170255992,0.6967312348668281,0.7986123156981786,3304.0
+1,Inactive,Naive Bayes,True,MaxAbsScaler(),0,0.3568677792041078,0.7776223776223776,0.4892212934447866,715.0
+2,accuracy,Naive Bayes,True,MaxAbsScaler(),0,0.7111221696939537,0.7111221696939537,0.7111221696939537,0.7111221696939537
+3,macro avg,Naive Bayes,True,MaxAbsScaler(),0,0.6461299481148536,0.7371768062446029,0.6439168045714826,4019.0
+4,weighted avg,Naive Bayes,True,MaxAbsScaler(),0,0.8324697727751972,0.7111221696939537,0.7435701208956965,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",13,0.9859437751004017,0.7430387409200968,0.8474283741801864,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",13,0.4447351209941138,0.951048951048951,0.6060606060606061,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",13,0.7800447872605125,0.7800447872605125,0.7800447872605125,0.7800447872605125
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",13,0.7153394480472577,0.847043845984524,0.7267444901203962,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",13,0.8896600757508133,0.7800447872605125,0.8044878531039236,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),4,0.9919093851132686,0.9276634382566586,0.9587112918360964,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),4,0.7427341227125942,0.965034965034965,0.8394160583941604,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),4,0.9343120179149044,0.9343120179149044,0.9343120179149044,0.9343120179149044
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),4,0.8673217539129314,0.9463492016458118,0.8990636751151284,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),4,0.9475798721457438,0.9343120179149044,0.9374880791187578,4019.0
+0,Active,Naive Bayes,False,PowerTransformer(),0,0.9361616161616162,0.701271186440678,0.8018688354386573,3304.0
+1,Inactive,Naive Bayes,False,PowerTransformer(),0,0.3607512953367875,0.779020979020979,0.4931385568835768,715.0
+2,accuracy,Naive Bayes,False,PowerTransformer(),0,0.7151032595172928,0.7151032595172928,0.7151032595172928,0.7151032595172928
+3,macro avg,Naive Bayes,False,PowerTransformer(),0,0.6484564557492019,0.7401460827308285,0.647503696161117,4019.0
+4,weighted avg,Naive Bayes,False,PowerTransformer(),0,0.8337932709539146,0.7151032595172928,0.7469441902117644,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),15,0.975609756097561,0.7627118644067796,0.8561236623067776,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),15,0.4540389972144846,0.911888111888112,0.606229660622966,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),15,0.7892510574769843,0.7892510574769843,0.7892510574769843,0.7892510574769843
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),15,0.7148243766560228,0.8372999881474458,0.7311766614648718,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),15,0.8828197355448365,0.7892510574769843,0.8116662820619592,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",19,0.9841463414634146,0.7327481840193705,0.8400416377515614,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",19,0.4336112892880051,0.9454545454545454,0.594547053649956,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",19,0.7705896989300821,0.7705896989300821,0.7705896989300821,0.7705896989300821
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",19,0.7088788153757098,0.839101364736958,0.7172943457007587,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",19,0.8862034297178515,0.7705896989300821,0.7963669356782477,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),22,0.9598777225831104,0.7602905569007264,0.8485053200472894,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),22,0.4350927246790299,0.8531468531468531,0.5762871988663203,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),22,0.7768101517790496,0.7768101517790496,0.7768101517790496,0.7768101517790496
+3,macro avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),22,0.6974852236310702,0.8067187050237898,0.7123962594568048,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,MaxAbsScaler(),22,0.8665158729933076,0.7768101517790496,0.800076368406485,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),20,0.9706422018348624,0.8005447941888619,0.8774257754188091,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),20,0.490726429675425,0.8881118881118881,0.6321553011448482,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),20,0.8161234137845235,0.8161234137845235,0.8161234137845235,0.8161234137845235
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),20,0.7306843157551437,0.844328341150375,0.7547905382818286,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),20,0.8852628096741265,0.8161234137845235,0.8337909435935087,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MinMaxScaler(),8,0.9851169383416016,0.8414043583535109,0.9076069213189684,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MinMaxScaler(),8,0.5622389306599833,0.9412587412587412,0.7039748953974896,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MinMaxScaler(),8,0.859168947499378,0.859168947499378,0.859168947499378,0.859168947499378
+3,macro avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),8,0.7736779345007925,0.8913315498061261,0.8057909083582291,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MinMaxScaler(),8,0.9098848469028464,0.859168947499378,0.8713797756275383,4019.0
+0,Active,Naive Bayes,False,MinMaxScaler(),0,0.9319983312473926,0.6761501210653753,0.7837221540080687,3304.0
+1,Inactive,Naive Bayes,False,MinMaxScaler(),0,0.3403205918618989,0.772027972027972,0.472400513478819,715.0
+2,accuracy,Naive Bayes,False,MinMaxScaler(),0,0.6932072654889276,0.6932072654889276,0.6932072654889276,0.6932072654889276
+3,macro avg,Naive Bayes,False,MinMaxScaler(),0,0.6361594615546458,0.7240890465466736,0.6280613337434439,4019.0
+4,weighted avg,Naive Bayes,False,MinMaxScaler(),0,0.8267359317299434,0.6932072654889276,0.7283364926548929,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,StandardScaler(),21,0.965224111282844,0.7560532687651331,0.8479293957909029,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,StandardScaler(),21,0.4367575122292103,0.8741258741258742,0.5824790307548928,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,StandardScaler(),21,0.7770589698930082,0.7770589698930082,0.7770589698930082,0.7770589698930082
+3,macro avg,K-Nearest Neighbors (kNN),True,StandardScaler(),21,0.7009908117560271,0.8150895714455036,0.7152042132728978,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,StandardScaler(),21,0.8712072866191595,0.7770589698930082,0.8007044614786991,4019.0
+0,Active,Decision Tree,False,MaxAbsScaler(),0,0.9518877380554628,0.8622881355932204,0.9048753374622835,3304.0
+1,Inactive,Decision Tree,False,MaxAbsScaler(),0,0.5565302144249513,0.7986013986013986,0.655944859276278,715.0
+2,accuracy,Decision Tree,False,MaxAbsScaler(),0,0.850957949738741,0.850957949738741,0.850957949738741,0.850957949738741
+3,macro avg,Decision Tree,False,MaxAbsScaler(),0,0.7542089762402071,0.8304447670973094,0.7804100983692808,4019.0
+4,weighted avg,Decision Tree,False,MaxAbsScaler(),0,0.8815516769965388,0.850957949738741,0.8605893728185926,4019.0
+0,Active,Logistic Regression,False,MaxAbsScaler(),0,0.9497800586510264,0.7842009685230025,0.8590848806366048,3304.0
+1,Inactive,Logistic Regression,False,MaxAbsScaler(),0,0.447714949651433,0.8083916083916084,0.5762711864406779,715.0
+2,accuracy,Logistic Regression,False,MaxAbsScaler(),0,0.7885046031351083,0.7885046031351083,0.7885046031351083,0.7885046031351083
+3,macro avg,Logistic Regression,False,MaxAbsScaler(),0,0.6987475041512297,0.7962962884573055,0.7176780335386413,4019.0
+4,weighted avg,Logistic Regression,False,MaxAbsScaler(),0,0.860460189794418,0.7885046031351083,0.8087709240926666,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",4,0.9931662870159452,0.923728813559322,0.9571899012074644,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",4,0.733615221987315,0.9706293706293706,0.8356411800120409,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",4,0.932072654889276,0.932072654889276,0.932072654889276,0.932072654889276
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",4,0.8633907545016302,0.9471790920943464,0.8964155406097526,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",4,0.9469908673853232,0.932072654889276,0.9355657818606796,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,StandardScaler(),21,0.971836572788576,0.7415254237288136,0.8412017167381975,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),21,0.4299065420560747,0.9006993006993007,0.5820153637596024,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),21,0.769843244588206,0.769843244588206,0.769843244588206,0.769843244588206
+3,macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),21,0.7008715574223253,0.8211123622140571,0.7116085402489,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),21,0.8754245369653019,0.769843244588206,0.7950911811871411,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",15,0.9860712822613684,0.7285108958837773,0.8379460400348129,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",15,0.4315589353612167,0.9524475524475524,0.5939816833842129,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",15,0.7683503359044539,0.7683503359044539,0.7683503359044539,0.7683503359044539
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",15,0.7088151088112925,0.8404792241656649,0.7159638617095129,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",15,0.8874207900907765,0.7683503359044539,0.7945435730019242,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",6,0.9918756623101378,0.8498789346246973,0.915403422982885,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",6,0.5824915824915825,0.967832167832168,0.7272727272727272,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",6,0.8708633988554366,0.8708633988554366,0.8708633988554366,0.8708633988554366
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",6,0.7871836224008602,0.9088555512284326,0.8213380751278061,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",6,0.9190442074531416,0.8708633988554366,0.8819340406905827,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",18,0.9820452771272444,0.761501210653753,0.8578247528128196,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",18,0.4591626630061771,0.9356643356643356,0.6160220994475138,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",18,0.7924856929584474,0.7924856929584474,0.7924856929584474,0.7924856929584474
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",18,0.7206039700667107,0.8485827731590443,0.7369234261301667,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",18,0.8890218710320557,0.7924856929584474,0.8148068634980165,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),3,0.9970597843841882,0.923728813559322,0.958994501178319,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),3,0.7369519832985386,0.9874125874125874,0.8439928272564255,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),3,0.9350584722567804,0.9350584722567804,0.9350584722567804,0.9350584722567804
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),3,0.8670058838413635,0.9555707004859548,0.9014936642173724,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),3,0.9507853186523546,0.9350584722567804,0.9385351339590718,4019.0
+0,Active,Naive Bayes,True,StandardScaler(),0,0.937872340425532,0.6670702179176755,0.7796250442164838,3304.0
+1,Inactive,Naive Bayes,True,StandardScaler(),0,0.340922708208508,0.7958041958041958,0.4773489932885905,715.0
+2,accuracy,Naive Bayes,True,StandardScaler(),0,0.6899726300074646,0.6899726300074646,0.6899726300074646,0.6899726300074646
+3,macro avg,Naive Bayes,True,StandardScaler(),0,0.63939752431702,0.7314372068609356,0.6284870187525372,4019.0
+4,weighted avg,Naive Bayes,True,StandardScaler(),0,0.8316720450696792,0.6899726300074646,0.7258486380424495,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",18,0.9810874704491724,0.7536319612590799,0.8524477918521055,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",18,0.450371370695476,0.9328671328671329,0.6074681238615665,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",18,0.7855187857676039,0.7855187857676039,0.7855187857676039,0.7855187857676039
+3,macro avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",18,0.7157294205723242,0.8432495470631064,0.729957957856836,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,"RobustScaler(quantile_range=(25, 75))",18,0.8866704484725881,0.7855187857676039,0.8088646959045475,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",17,0.9834744054816608,0.738498789346247,0.843560933448574,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",17,0.4382314694408322,0.9426573426573428,0.5983133599644918,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",17,0.7748196068673799,0.7748196068673799,0.7748196068673799,0.7748196068673799
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",17,0.7108529374612464,0.8405780660017949,0.7209371467065329,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",17,0.8864729874002493,0.7748196068673799,0.7999301757871858,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),13,0.979568234387047,0.7690677966101694,0.861648016276704,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),13,0.4645614035087719,0.925874125874126,0.6186915887850467,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),13,0.7969644190097039,0.7969644190097039,0.7969644190097039,0.7969644190097039
+3,macro avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),13,0.7220648189479095,0.8474709612421476,0.7401698025308754,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,MaxAbsScaler(),13,0.887945969127538,0.7969644190097039,0.818424864831933,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),14,0.9748020158387328,0.8196125907990315,0.8904965471884249,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),14,0.5197421434327155,0.902097902097902,0.6595092024539878,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),14,0.8342871361035084,0.8342871361035084,0.8342871361035084,0.8342871361035084
+3,macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),14,0.7472720796357242,0.8608552464484668,0.7750028748212063,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),14,0.8938446113176326,0.8342871361035084,0.8494027548308428,4019.0
+0,Active,Random Forests,False,MinMaxScaler(),0,0.9512964260686756,0.8217312348668281,0.8817797986359208,3304.0
+1,Inactive,Random Forests,False,MinMaxScaler(),0,0.4944206008583691,0.8055944055944056,0.6127659574468085,715.0
+2,accuracy,Random Forests,False,MinMaxScaler(),0,0.8188604130380692,0.8188604130380692,0.8188604130380692,0.8188604130380692
+3,macro avg,Random Forests,False,MinMaxScaler(),0,0.7228585134635224,0.8136628202306169,0.7472728780413647,4019.0
+4,weighted avg,Random Forests,False,MinMaxScaler(),0,0.8700159545520374,0.8188604130380692,0.8339209042715975,4019.0
+0,Active,K-Nearest Neighbors (kNN),False,PowerTransformer(),5,0.9958129797627356,0.8638014527845036,0.9251215559157212,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),False,PowerTransformer(),5,0.6097137901127494,0.9832167832167832,0.7526766595289078,715.0
+2,accuracy,K-Nearest Neighbors (kNN),False,PowerTransformer(),5,0.8850460313510824,0.8850460313510824,0.8850460313510824,0.8850460313510824
+3,macro avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),5,0.8027633849377425,0.9235091180006434,0.8388991077223146,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),False,PowerTransformer(),5,0.9271240221614068,0.8850460313510824,0.8944427549909709,4019.0
+0,Active,Logistic Regression,True,StandardScaler(),0,0.9504734158776402,0.7899515738498789,0.8628099173553719,3304.0
+1,Inactive,Logistic Regression,True,StandardScaler(),0,0.4548311076197958,0.8097902097902098,0.5824949698189135,715.0
+2,accuracy,Logistic Regression,True,StandardScaler(),0,0.7934809654142821,0.7934809654142821,0.7934809654142821,0.7934809654142821
+3,macro avg,Logistic Regression,True,StandardScaler(),0,0.702652261748718,0.7998708918200443,0.7226524435871426,4019.0
+4,weighted avg,Logistic Regression,True,StandardScaler(),0,0.8622961950753614,0.7934809654142821,0.8129405002146485,4019.0
+0,Active,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",3,0.9977011494252872,0.9194915254237288,0.9570011025358324,3304.0
+1,Inactive,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",3,0.7268993839835729,0.9902097902097902,0.8383658969804617,715.0
+2,accuracy,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",3,0.932072654889276,0.932072654889276,0.932072654889276,0.932072654889276
+3,macro avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",3,0.8623002667044302,0.9548506578167596,0.8976834997581471,4019.0
+4,weighted avg,K-Nearest Neighbors (kNN),True,"RobustScaler(quantile_range=(25, 75))",3,0.949524174483554,0.932072654889276,0.9358953120476288,4019.0

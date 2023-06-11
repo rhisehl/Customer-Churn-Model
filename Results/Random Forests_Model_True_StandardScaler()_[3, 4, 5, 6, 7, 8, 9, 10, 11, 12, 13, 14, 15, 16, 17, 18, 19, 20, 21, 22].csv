@@ -1,6 +1,0 @@
-,Model,Oversample,Scaler,Neighbors,precision,recall,f1-score,support
-Active,Random Forests,True,StandardScaler(),0,0.9996942830938551,0.9897094430992736,0.9946768060836502,3304.0
-Inactive,Random Forests,True,StandardScaler(),0,0.9545454545454546,0.9986013986013986,0.9760765550239235,715.0
-accuracy,Random Forests,True,StandardScaler(),0,0.9912913660114456,0.9912913660114456,0.9912913660114456,0.9912913660114456
-macro avg,Random Forests,True,StandardScaler(),0,0.9771198688196548,0.994155420850336,0.9853766805537869,4019.0
-weighted avg,Random Forests,True,StandardScaler(),0,0.991662082941552,0.9912913660114456,0.991367729321345,4019.0

@@ -1,0 +1,6 @@
+,Model,Oversample,Scaler,Neighbors,precision,recall,f1-score,support
+Active,Support Vector Machines (SVM),False,"RobustScaler(quantile_range=(25, 75))",0,0.989282234491718,0.9219128329297821,0.9544101519661601,3304.0
+Inactive,Support Vector Machines (SVM),False,"RobustScaler(quantile_range=(25, 75))",0,0.725531914893617,0.9538461538461539,0.8241691842900302,715.0
+accuracy,Support Vector Machines (SVM),False,"RobustScaler(quantile_range=(25, 75))",0,0.9275939288380194,0.9275939288380194,0.9275939288380194,0.9275939288380194
+macro avg,Support Vector Machines (SVM),False,"RobustScaler(quantile_range=(25, 75))",0,0.8574070746926675,0.9378794933879679,0.8892896681280951,4019.0
+weighted avg,Support Vector Machines (SVM),False,"RobustScaler(quantile_range=(25, 75))",0,0.9423597466806599,0.9275939288380194,0.9312396389309691,4019.0

@@ -1,0 +1,6 @@
+,Model,Oversample,Scaler,Neighbors,precision,recall,f1-score,support
+Active,K-Nearest Neighbors (kNN),False,StandardScaler(),7,0.9897398314400879,0.8174939467312349,0.8954085861097298,3304.0
+Inactive,K-Nearest Neighbors (kNN),False,StandardScaler(),7,0.5325581395348837,0.9608391608391609,0.6852867830423941,715.0
+accuracy,K-Nearest Neighbors (kNN),False,StandardScaler(),7,0.8429957700920627,0.8429957700920627,0.8429957700920627,0.8429957700920627
+macro avg,K-Nearest Neighbors (kNN),False,StandardScaler(),7,0.7611489854874858,0.8891665537851978,0.790347684576062,4019.0
+weighted avg,K-Nearest Neighbors (kNN),False,StandardScaler(),7,0.9084049447239344,0.8429957700920627,0.8580268769300471,4019.0

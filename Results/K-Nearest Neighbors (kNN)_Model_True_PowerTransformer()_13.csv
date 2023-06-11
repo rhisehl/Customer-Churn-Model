@@ -1,0 +1,6 @@
+,Model,Oversample,Scaler,Neighbors,precision,recall,f1-score,support
+Active,K-Nearest Neighbors (kNN),True,PowerTransformer(),13,0.981675392670157,0.7944915254237288,0.8782201405152226,3304.0
+Inactive,K-Nearest Neighbors (kNN),True,PowerTransformer(),13,0.49516728624535317,0.9314685314685315,0.6466019417475728,715.0
+accuracy,K-Nearest Neighbors (kNN),True,PowerTransformer(),13,0.8188604130380692,0.8188604130380692,0.8188604130380692,0.8188604130380692
+macro avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),13,0.7384213394577551,0.8629800284461302,0.7624110411313977,4019.0
+weighted avg,K-Nearest Neighbors (kNN),True,PowerTransformer(),13,0.8951231916017981,0.8188604130380692,0.8370141161014705,4019.0
