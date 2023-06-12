@@ -77,9 +77,9 @@ Most of the models had an average f1 score at or above 0.79, with Logistic Regre
 
 Initial Service Vector Machine Models
 
-![SVM ros=False RobustScaler](https://github.com/rhisehl/Customer-Churn-Model/commit/d6110742d7cf71f6ebe0d3eb9ff716918209abe8#diff-8f25e43cff80c84d613225028e704cb1d73040583c895c09a9cf0a3e71401b4d)
+![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/ffaced33-5b44-4785-9612-b00e117e16c4)
 
-![SVM ros=True RobustScaler](https://github.com/rhisehl/Customer-Churn-Model/commit/d6110742d7cf71f6ebe0d3eb9ff716918209abe8#diff-09303ee1428e92eae0c70b55d5caf979297f92b728c45e1816d13b0b9c35b7c6)
+![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/2b83b507-b298-4f89-b957-eb0d773ddc01)
 
 ## Service Vector Machine Model : Optimization
 # Kernel Trick
@@ -95,7 +95,7 @@ This resulted in 240 fits tested. The best fit resulted with the following param
 * gamma: 1
 * C: 1
 
-![SVM after Optimization](https://github.com/rhisehl/Customer-Churn-Model/commit/d6110742d7cf71f6ebe0d3eb9ff716918209abe8#diff-3ac8cc03c98b7b26af60162913275cd7693f73b0f465f2fe3710f343ad7d2f45)
+![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/973c2989-4f28-4fba-89d9-3ae97b035cd7)
 
 Due to GridSearchCV optimization we increased our best score of 0.908911 to an amazing 0.995007
 
