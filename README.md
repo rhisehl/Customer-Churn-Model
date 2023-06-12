@@ -77,9 +77,9 @@ Most of the models had an average f1 score at or above 0.79, with Logistic Regre
 
 Initial Service Vector Machine Models
 
-![SVM ros=False RobustScaler](Results/model images/SVM_False_RobustScaler.png)
+![SVM ros=False RobustScaler](https://github.com/rhisehl/Customer-Churn-Model/commit/d6110742d7cf71f6ebe0d3eb9ff716918209abe8#diff-8f25e43cff80c84d613225028e704cb1d73040583c895c09a9cf0a3e71401b4d)
 
-![SVM ros=True RobustScaler](Results/model images/SVM_True_RobustScaler.png)
+![SVM ros=True RobustScaler](https://github.com/rhisehl/Customer-Churn-Model/commit/d6110742d7cf71f6ebe0d3eb9ff716918209abe8#diff-09303ee1428e92eae0c70b55d5caf979297f92b728c45e1816d13b0b9c35b7c6)
 
 ## Service Vector Machine Model : Optimization
 # Kernel Trick
