@@ -129,12 +129,13 @@ https://www.census.gov/quickfacts/fact/table/detroitcitymichigan,MI/PST045222
 
 ## References
 
-https://towardsdatascience.com/feature-scaling-effect-of-different-scikit-learn-scalers-deep-dive-8dec775d4946
-https://towardsdatascience.com/understanding-the-3-most-common-loss-functions-for-machine-learning-regression-23e0ef3e14d3
-https://stackoverflow.com/questions/29517072/add-column-to-dataframe-with-constant-value
-https://www.youtube.com/watch?v=i_LwzRVP7bg Machine Learning for Everybody from freeCodeCamp.org
-https://www.geeksforgeeks.org/svm-hyperparameter-tuning-using-gridsearchcv-ml/
-https://towardsdatascience.com/hyperparameter-tuning-for-support-vector-machines-c-and-gamma-parameters-6a5097416167
+* https://towardsdatascience.com/feature-scaling-effect-of-different-scikit-learn-scalers-deep-dive-8dec775d4946
+* https://towardsdatascience.com/understanding-the-3-most-common-loss-functions-for-machine-learning-regression-23e0ef3e14d3
+* https://stackoverflow.com/questions/29517072/add-column-to-dataframe-with-constant-value
+* https://www.youtube.com/watch?v=i_LwzRVP7bg 
+* Machine Learning for Everybody from freeCodeCamp.org
+* https://www.geeksforgeeks.org/svm-hyperparameter-tuning-using-gridsearchcv-ml/
+* https://towardsdatascience.com/hyperparameter-tuning-for-support-vector-machines-c-and-gamma-parameters-6a5097416167
 
 
 
