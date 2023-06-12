@@ -90,6 +90,7 @@ Sklearn's GridSearchCV boasts 13 available parameters to tune this model, we sta
 * kernels: rbf, sigmoid, and linear (dropped poly due to poor result of 0.27 with the kernel trick)
 * gamma: 1, 0.1, 0.01, 0.001
 * C: 0.1, 1, 10, 100
+
 This resulted in 240 fits tested. The best fit resulted with the following parameters:
 * kernels: rbf
 * gamma: 1
