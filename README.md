@@ -77,9 +77,9 @@ Most of the models had an average f1 score at or above 0.79, with Logistic Regre
 
 Initial Service Vector Machine Models
 
-![SVM ros=False RobustScaler](https://github.com/rhisehl/Customer-Churn-Model/commit/d6110742d7cf71f6ebe0d3eb9ff716918209abe8#diff-8f25e43cff80c84d613225028e704cb1d73040583c895c09a9cf0a3e71401b4d)
+![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/ffaced33-5b44-4785-9612-b00e117e16c4)
 
-![SVM ros=True RobustScaler](https://github.com/rhisehl/Customer-Churn-Model/commit/d6110742d7cf71f6ebe0d3eb9ff716918209abe8#diff-09303ee1428e92eae0c70b55d5caf979297f92b728c45e1816d13b0b9c35b7c6)
+![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/2b83b507-b298-4f89-b957-eb0d773ddc01)
 
 ## Service Vector Machine Model : Optimization
 # Kernel Trick
@@ -90,12 +90,13 @@ Sklearn's GridSearchCV boasts 13 available parameters to tune this model, we sta
 * kernels: rbf, sigmoid, and linear (dropped poly due to poor result of 0.27 with the kernel trick)
 * gamma: 1, 0.1, 0.01, 0.001
 * C: 0.1, 1, 10, 100
+
 This resulted in 240 fits tested. The best fit resulted with the following parameters:
 * kernels: rbf
 * gamma: 1
 * C: 1
 
-![SVM after Optimization](https://github.com/rhisehl/Customer-Churn-Model/commit/d6110742d7cf71f6ebe0d3eb9ff716918209abe8#diff-3ac8cc03c98b7b26af60162913275cd7693f73b0f465f2fe3710f343ad7d2f45)
+![image](https://github.com/rhisehl/Customer-Churn-Model/assets/116215793/973c2989-4f28-4fba-89d9-3ae97b035cd7)
 
 Due to GridSearchCV optimization we increased our best score of 0.908911 to an amazing 0.995007
 
@@ -128,12 +129,12 @@ https://www.census.gov/quickfacts/fact/table/detroitcitymichigan,MI/PST045222
 
 ## References
 
-https://towardsdatascience.com/feature-scaling-effect-of-different-scikit-learn-scalers-deep-dive-8dec775d4946
-https://towardsdatascience.com/understanding-the-3-most-common-loss-functions-for-machine-learning-regression-23e0ef3e14d3
-https://stackoverflow.com/questions/29517072/add-column-to-dataframe-with-constant-value
-https://www.youtube.com/watch?v=i_LwzRVP7bg Machine Learning for Everybody from freeCodeCamp.org
-https://www.geeksforgeeks.org/svm-hyperparameter-tuning-using-gridsearchcv-ml/
-https://towardsdatascience.com/hyperparameter-tuning-for-support-vector-machines-c-and-gamma-parameters-6a5097416167
+* https://towardsdatascience.com/feature-scaling-effect-of-different-scikit-learn-scalers-deep-dive-8dec775d4946
+* https://towardsdatascience.com/understanding-the-3-most-common-loss-functions-for-machine-learning-regression-23e0ef3e14d3
+* https://stackoverflow.com/questions/29517072/add-column-to-dataframe-with-constant-value
+* https://www.youtube.com/watch?v=i_LwzRVP7bg (Machine Learning for Everybody from freeCodeCamp.org)
+* https://www.geeksforgeeks.org/svm-hyperparameter-tuning-using-gridsearchcv-ml/
+* https://towardsdatascience.com/hyperparameter-tuning-for-support-vector-machines-c-and-gamma-parameters-6a5097416167
 
 
 
