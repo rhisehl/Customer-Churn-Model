@@ -51,18 +51,51 @@ To begin the machine learning process, an inventory was taken of several models 
 * K-Nearest Neighbors
 * Naive Bayes
 * Logistic Regression
-* Support Vector Machines
+* Support Vector Machine
 * Decision Tree
 * Random Forests
 * Neural Network
 
+Next we analyzed the above models (except Neural Network) with and without Random Oversampling, and scaled the datasets using the following scalers:
+* StandardScaler
+* MinMaxScaler
+* PowerTransformer(method='yeo-johnson')
+* RobustScaler(quantile_range=(25, 75))
+* MaxAbsScaler
+
+The Neural Network model was analyzed for the lowest loss based on the following parameters:
+* MaxAbsScaler
+* without and with Random Oversampling
+* nodes of 8, 16, 24
+* dropout probabilites of 0, 0.2
+* learning rates of 0.01, 0.005, 0.001
+* batch sizes of 32, 64, 128
+Due to the nature, robustness, the 1 hour 12 minutes of run time with this technique, multiple parameters and the small dataset modeled, we chose not to pursue this model for final analysis.
 
 ## Machine Learning Model: Best Fit
-Most of the models had an f1 score above .8, with Logistic Regression being right under .8 and Naive Bayes being closer to .7. The highest f1 score was the Random Forests, with a .99 f1 score, and a similar accuracy. This led to the decision to hone in on the Random Forest model. This model was originally allowed to run with minimal parameters. After restricting the depth of the tree to four, the f1 score dropped closer to 85%. This became the starting point for optimization.
+Most of the models had an average f1 score at or above 0.79, with Logistic Regression at 0.75 and Naive Bayes being the low of 0.67. The highest f1 score was the Service Vector Machine (SVM), with a 0.91 f1 score, and higher average recall at 0.93. This led to the decision to hone in on the Service Vector Machine model. This model was originally allowed to run with minimal parameters. After analyzing the individual parameters including RandomOversampling and the Scaler used to normalize the dataset, the individual average f1 score of 0.91 (0.908911) was highest for the RobustScaler (quantile range of 25, 75) with RandomOversampling. This became the starting point for optimization.
 
-## Random Forest: Optimization
 
-# Add Optimization Information
+
+## Service Vector Machine Model : Optimization
+# Kernel Trick
+We began with a simple kernel trick to determine if the most major parameter of changing the kernel could be all that would be required. The low f1 score was 0.27 for the Polynomial kernel and high f1 score was 0.85 for the RBF Kernel, much less than the original parameters's f1 score of 0.91. We needed a more robust method of optimization so we dived into sklearn's GridSearchCv. 
+# Sklearn GRidSearchCV
+Sklearn's GridSearchCV boasts 13 available parameters to tune this model, we started with the 3 major parameters, selecting the following:
+* kernels: rbf, sigmoid, and linear (dropped poly due to poor result of 0.27 with the kernel trick)
+* gamma: 1, 0.1, 0.01, 0.001
+* C: 0.1, 1, 10, 100
+This resulted in 240 fits tested. The best fit resulted with the following parameters:
+* kernels: rbf
+* gamma: 1
+* C: 1
+
+
+
+
+Due to GridSearchCV optimization we increased our best score of 0.908911 to an amazing 0.995007
+
+
 
 
 ## Technologies Utilized
@@ -94,6 +127,12 @@ https://www.census.gov/quickfacts/fact/table/detroitcitymichigan,MI/PST045222
 https://towardsdatascience.com/feature-scaling-effect-of-different-scikit-learn-scalers-deep-dive-8dec775d4946
 https://towardsdatascience.com/understanding-the-3-most-common-loss-functions-for-machine-learning-regression-23e0ef3e14d3
 https://stackoverflow.com/questions/29517072/add-column-to-dataframe-with-constant-value
+https://www.youtube.com/watch?v=i_LwzRVP7bg Machine Learning for Everybody from freeCodeCamp.org
+https://www.geeksforgeeks.org/svm-hyperparameter-tuning-using-gridsearchcv-ml/
+https://towardsdatascience.com/hyperparameter-tuning-for-support-vector-machines-c-and-gamma-parameters-6a5097416167
+
+
+
 
 # Project Planning Resources
 
