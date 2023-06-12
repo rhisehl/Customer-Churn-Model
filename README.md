@@ -95,7 +95,7 @@ This resulted in 240 fits tested. The best fit resulted with the following param
 * gamma: 1
 * C: 1
 
-![SVM after Optimization](Results/model images/SVM_optimized.png)
+![SVM after Optimization](https://github.com/rhisehl/Customer-Churn-Model/commit/d6110742d7cf71f6ebe0d3eb9ff716918209abe8#diff-3ac8cc03c98b7b26af60162913275cd7693f73b0f465f2fe3710f343ad7d2f45)
 
 Due to GridSearchCV optimization we increased our best score of 0.908911 to an amazing 0.995007
 
