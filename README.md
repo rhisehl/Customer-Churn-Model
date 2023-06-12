@@ -75,11 +75,16 @@ Due to the nature, robustness, the 1 hour 12 minutes of run time with this techn
 ## Machine Learning Model: Best Fit
 Most of the models had an average f1 score at or above 0.79, with Logistic Regression at 0.75 and Naive Bayes being the low of 0.67. The highest f1 score was the Service Vector Machine (SVM), with a 0.91 f1 score, and higher average recall at 0.93. This led to the decision to hone in on the Service Vector Machine model. This model was originally allowed to run with minimal parameters. After analyzing the individual parameters including RandomOversampling and the Scaler used to normalize the dataset, the individual average f1 score of 0.91 (0.908911) was highest for the RobustScaler (quantile range of 25, 75) with RandomOversampling. This became the starting point for optimization.
 
+Initial Service Vector Machine Models
 
+![SVM ros=False RobustScaler](Results/model images/SVM_False_RobustScaler.png)
+
+![SVM ros=True RobustScaler](Results/model images/SVM_True_RobustScaler.png)
 
 ## Service Vector Machine Model : Optimization
 # Kernel Trick
 We began with a simple kernel trick to determine if the most major parameter of changing the kernel could be all that would be required. The low f1 score was 0.27 for the Polynomial kernel and high f1 score was 0.85 for the RBF Kernel, much less than the original parameters's f1 score of 0.91. We needed a more robust method of optimization so we dived into sklearn's GridSearchCv. 
+
 # Sklearn GRidSearchCV
 Sklearn's GridSearchCV boasts 13 available parameters to tune this model, we started with the 3 major parameters, selecting the following:
 * kernels: rbf, sigmoid, and linear (dropped poly due to poor result of 0.27 with the kernel trick)
@@ -90,8 +95,7 @@ This resulted in 240 fits tested. The best fit resulted with the following param
 * gamma: 1
 * C: 1
 
-
-
+![SVM after Optimization](Results/model images/SVM_optimized.png)
 
 Due to GridSearchCV optimization we increased our best score of 0.908911 to an amazing 0.995007
 
